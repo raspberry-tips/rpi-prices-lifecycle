@@ -1,5 +1,7 @@
 # Raspberry Pi prices and lifecycle (2012–2026)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23336491.svg)](https://doi.org/10.5281/zenodo.23336491)
+
 Official US list prices of every Raspberry Pi board, Compute Module and Pico since 2012, every announced price
 change (including the five memory-driven rounds from October 2025 to October 2026), and the production
 guarantees ("will remain in production until at least …") of 45 Raspberry Pi products, each with its primary source.
@@ -30,7 +32,7 @@ Interactive version with charts: [https://raspberry.tips/en/raspberrypi-infos/ra
 ## Citation
 
 Philipp Schweizer, "Raspberry Pi Prices and Lifecycle: Every Model Since 2012", raspberry.tips, October 2026.
-See `CITATION.cff`.
+DOI: [10.5281/zenodo.23336491](https://doi.org/10.5281/zenodo.23336491) (always resolves to the latest version). See `CITATION.cff`.
 
 ## Licence
 
