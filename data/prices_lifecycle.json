@@ -1,0 +1,5789 @@
+{
+ "meta": {
+  "title": "Raspberry Pi Prices and Lifecycle: Every Model Since 2012",
+  "as_of": "2026-10-12",
+  "generated_from": [
+   "belege/01_listenpreise.json",
+   "belege/02_lebenszyklus.json",
+   "tool/overlay_en.json"
+  ],
+  "license": "CC BY 4.0",
+  "author": "Philipp Schweizer, raspberry.tips",
+  "currency": "USD",
+  "price_definition": "Official US list prices (MSRP) published by Raspberry Pi Ltd, excluding tax, duty and shipping. Street prices in other currencies including VAT are higher.",
+  "source_policy": "Primary sources only: raspberrypi.com news posts (date from article:published_time), product pages and product briefs / obsolescence notices on pip.raspberrypi.com. No retailer prices.",
+  "basis_values": {
+   "stated": "Absolute price appears verbatim in the source.",
+   "calculated": "Previous price + an increase stated in the source; 'confirmed' = the result also appears verbatim in a later source.",
+   "assumption": "Increase not stated for this product; taken from a general table or placed at an assumed date.",
+   "approximate": "Approximate figure, not a list price.",
+   "delta_only": "Only the increase/decrease is documented for this variant family; no absolute price."
+  },
+  "status_values": {
+   "active": "In production",
+   "active_no_date": "In production, no end date published",
+   "guarantee_passed": "Guarantee date passed",
+   "end_of_life": "End of life (formal notice)",
+   "not_offered": "No longer offered",
+   "discontinued": "No longer in production"
+  },
+  "family_values": {
+   "boards": "Boards & PCs",
+   "zero": "Zero",
+   "compute": "Compute Modules",
+   "pico": "Pico & chips",
+   "accessories": "Accessories"
+  },
+  "production_until_definition": "Month of the official 'will remain in production until at least' statement (minimum, not an end date)."
+ },
+ "products": [
+  {
+   "id": "pi-1-model-b",
+   "name": "Raspberry Pi 1 Model B",
+   "short": "Pi 1 B",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2012-02-29",
+   "launch_note": "Sales started 29 Feb 2012; the launch post is dated 1 Mar 2012.",
+   "launch_source": "https://www.raspberrypi.com/news/the-raspberry-pi-launch/",
+   "launch_source_secondary": false,
+   "production_until": null,
+   "production_until_label": null,
+   "status": "not_offered",
+   "status_label": "No longer offered",
+   "eol": null,
+   "conflict": null,
+   "note": "No product page and no obsolescence notice found. endoflife.date uses the B+ launch (14 Jul 2014) as end date, which is a derivation, not an official date.",
+   "lifecycle_sources": [],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": false,
+   "current_source": null,
+   "featured": null,
+   "default_variant": "512MB",
+   "price_history": [
+    {
+     "date": "2012-02-29",
+     "variant": "256MB",
+     "usd": 35,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/the-raspberry-pi-launch/",
+     "source_published": "2012-03-01T10:40:00+00:00",
+     "quote": "All of the first units to be produced are the $35 Raspberry Pi Model B.",
+     "note": "Sales started 29 Feb 2012; the launch post carries published_time 1 Mar 2012.",
+     "belege_rows": [
+      1
+     ]
+    },
+    {
+     "date": "2012-10-15",
+     "variant": "512MB",
+     "usd": 35,
+     "delta_usd": null,
+     "event": "revision",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/model-b-now-ships-with-512mb-of-ram/",
+     "source_published": "2012-10-15T08:29:44+00:00",
+     "quote": "we’re very attached to $35 as our highest price point. With this in mind, we’re pleased to announce that from today all Model B Raspberry Pis will ship with 512MB of RAM as standard.",
+     "note": null,
+     "belege_rows": [
+      3
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "512MB",
+    "variants": [
+     {
+      "variant": "256MB",
+      "sku": null,
+      "launch_usd": 35,
+      "launch_date": "2012-02-29",
+      "today_usd": null,
+      "today_since": null,
+      "today_since_event": null,
+      "today_confirmed": false,
+      "last_usd": 35,
+      "last_date": "2012-02-29",
+      "change_pct": null,
+      "launch_usd_cpi": 51.07,
+      "real_change_pct": null,
+      "cpi_ref": "annual average 2012"
+     },
+     {
+      "variant": "512MB",
+      "sku": null,
+      "launch_usd": 35,
+      "launch_date": "2012-10-15",
+      "today_usd": null,
+      "today_since": null,
+      "today_since_event": null,
+      "today_confirmed": false,
+      "last_usd": 35,
+      "last_date": "2012-10-15",
+      "change_pct": null,
+      "launch_usd_cpi": 51.07,
+      "real_change_pct": null,
+      "cpi_ref": "annual average 2012"
+     }
+    ],
+    "launch_min": 35,
+    "launch_max": 35,
+    "today_min": null,
+    "today_max": null
+   }
+  },
+  {
+   "id": "pi-1-model-a",
+   "name": "Raspberry Pi 1 Model A",
+   "short": "Pi 1 A",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2013-02-04",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/model-a-now-for-sale-in-europe-buy-one-today/",
+   "launch_source_secondary": false,
+   "production_until": null,
+   "production_until_label": null,
+   "status": "not_offered",
+   "status_label": "No longer offered",
+   "eol": null,
+   "conflict": null,
+   "note": "No product page and no obsolescence notice found. endoflife.date uses the A+ launch (10 Nov 2014) as end date, which is a derivation.",
+   "lifecycle_sources": [],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": false,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2012-02-29",
+     "variant": "256MB",
+     "usd": 25,
+     "delta_usd": null,
+     "event": "announcement",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/the-raspberry-pi-launch/",
+     "source_published": "2012-03-01T10:40:00+00:00",
+     "quote": "The $25 Model A has been reworked to include 256MB of RAM – double what we were originally planning to offer",
+     "note": "Price announcement only; sales began in 2013.",
+     "belege_rows": [
+      2
+     ]
+    },
+    {
+     "date": "2013-02-04",
+     "variant": "256MB",
+     "usd": 25,
+     "delta_usd": 0,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/model-a-now-for-sale-in-europe-buy-one-today/",
+     "source_published": "2013-02-04T12:00:12+00:00",
+     "quote": "we can make it ten dollars cheaper, at $25",
+     "note": "Sales started in Europe first.",
+     "belege_rows": [
+      4
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "256MB",
+    "variants": [
+     {
+      "variant": "256MB",
+      "sku": null,
+      "launch_usd": 25,
+      "launch_date": "2013-02-04",
+      "today_usd": null,
+      "today_since": null,
+      "today_since_event": null,
+      "today_confirmed": false,
+      "last_usd": 25,
+      "last_date": "2013-02-04",
+      "change_pct": null,
+      "launch_usd_cpi": 35.95,
+      "real_change_pct": null,
+      "cpi_ref": "annual average 2013"
+     }
+    ],
+    "launch_min": 25,
+    "launch_max": 25,
+    "today_min": null,
+    "today_max": null
+   }
+  },
+  {
+   "id": "pi-1-model-b-plus",
+   "name": "Raspberry Pi 1 Model B+",
+   "short": "Pi 1 B+",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2014-07-14",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/introducing-raspberry-pi-model-b-plus/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "The price post of 1 Apr 2026 names Pi 1 among the products that are 'still in production'.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-1-model-b-plus/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 1 Model B+ will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "kind": "news post",
+     "quote": "Our commitment to long product manufacturing lifetimes means that these products are still in production",
+     "date": "2026-04-01",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2014-07-14",
+     "variant": "512MB",
+     "usd": 35,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/introducing-raspberry-pi-model-b-plus/",
+     "source_published": "2014-07-14T06:06:36+00:00",
+     "quote": "the immediate availability, at $35 – it’s still the same price, of what we’re calling the Raspberry Pi Model B+.",
+     "note": null,
+     "belege_rows": [
+      5
+     ]
+    },
+    {
+     "date": "2015-05-14",
+     "variant": "512MB",
+     "usd": 25,
+     "delta_usd": -10,
+     "event": "cut",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/price-cut-raspberry-pi-model-b-now-only-25/",
+     "source_published": "2015-05-14T07:33:19+00:00",
+     "quote": "With this in mind, we’ve decided to drop its list price to $25.",
+     "note": null,
+     "belege_rows": [
+      7
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "512MB",
+    "variants": [
+     {
+      "variant": "512MB",
+      "sku": null,
+      "launch_usd": 35,
+      "launch_date": "2014-07-14",
+      "today_usd": 25,
+      "today_since": "2015-05-14",
+      "today_since_event": "cut",
+      "today_confirmed": false,
+      "last_usd": 25,
+      "last_date": "2015-05-14",
+      "change_pct": -28.6,
+      "launch_usd_cpi": 49.52,
+      "real_change_pct": -49.5,
+      "cpi_ref": "annual average 2014"
+     }
+    ],
+    "launch_min": 35,
+    "launch_max": 35,
+    "today_min": 25,
+    "today_max": 25
+   }
+  },
+  {
+   "id": "pi-1-model-a-plus",
+   "name": "Raspberry Pi 1 Model A+",
+   "short": "Pi 1 A+",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2014-11-10",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-model-a-plus-on-sale/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-1-model-a-plus/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 1 Model A+ will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2014-11-10",
+     "variant": "256MB",
+     "usd": 20,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-model-a-plus-on-sale/",
+     "source_published": "2014-11-10T09:00:35+00:00",
+     "quote": "today we’re pleased to announce the release of the Raspberry Pi Model A+ at a new low price of $20.",
+     "note": null,
+     "belege_rows": [
+      6
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "256MB",
+    "variants": [
+     {
+      "variant": "256MB",
+      "sku": null,
+      "launch_usd": 20,
+      "launch_date": "2014-11-10",
+      "today_usd": 20,
+      "today_since": "2014-11-10",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 20,
+      "last_date": "2014-11-10",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 28.3,
+      "real_change_pct": -29.3,
+      "cpi_ref": "annual average 2014"
+     }
+    ],
+    "launch_min": 20,
+    "launch_max": 20,
+    "today_min": 20,
+    "today_max": 20
+   }
+  },
+  {
+   "id": "pi-2-model-b",
+   "name": "Raspberry Pi 2 Model B (Rev. 1.1/1.2)",
+   "short": "Pi 2 B",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2015-02-02",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-2-on-sale/",
+   "launch_source_secondary": false,
+   "production_until": null,
+   "production_until_label": null,
+   "status": "end_of_life",
+   "status_label": "End of life (formal notice)",
+   "eol": {
+    "notice": "Obsolescence Notice 1 (RP-009284), 6 Oct 2025, dates updated 4 Nov 2025",
+    "notice_date": "2025-10-06",
+    "eol": "2025-10-16",
+    "last_time_buy": "2025-11-28",
+    "last_time_ship": "2026-06-30",
+    "reason": "End of life of the main processor (SoC) used on the product.",
+    "alternative": "Raspberry Pi 2 Model B Rev. 1.3 (BCM2837B0)"
+   },
+   "conflict": null,
+   "note": "Launch prices refer to the original Pi 2 Model B. The current Rev. 1.3 is listed separately.",
+   "lifecycle_sources": [
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/1283-eol-notices/documents/RP-009284-PC-3-Raspberry%20Pi%202%20Model%20B%20revision%201.1,%201.2.pdf",
+     "kind": "obsolescence notice",
+     "quote": "End of life of core SoC used on the product.",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-2-model-b/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 2 revisions 1.1 and 1.2 have now reached end-of-life, with final shipments scheduled for June 2026.",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2015-02-02",
+     "variant": "1GB",
+     "usd": 35,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-2-on-sale/",
+     "source_published": "2015-02-02T08:55:05+00:00",
+     "quote": "Raspberry Pi 2 is now on sale for $35 (the same price as the existing Model B+)",
+     "note": null,
+     "belege_rows": [
+      8
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "1GB",
+    "variants": [
+     {
+      "variant": "1GB",
+      "sku": null,
+      "launch_usd": 35,
+      "launch_date": "2015-02-02",
+      "today_usd": null,
+      "today_since": null,
+      "today_since_event": null,
+      "today_confirmed": false,
+      "last_usd": 35,
+      "last_date": "2015-02-02",
+      "change_pct": null,
+      "launch_usd_cpi": 49.47,
+      "real_change_pct": null,
+      "cpi_ref": "annual average 2015"
+     }
+    ],
+    "launch_min": 35,
+    "launch_max": 35,
+    "today_min": null,
+    "today_max": null
+   }
+  },
+  {
+   "id": "pi-2-model-b-rev-1-3",
+   "name": "Raspberry Pi 2 Model B (Rev. 1.3, BCM2837B0)",
+   "short": "Pi 2 B 1.3",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": null,
+   "launch_note": "Revision change without a launch post.",
+   "launch_source": null,
+   "launch_source_secondary": false,
+   "production_until": null,
+   "production_until_label": null,
+   "status": "active_no_date",
+   "status_label": "In production, no end date published",
+   "eol": null,
+   "conflict": null,
+   "note": "The product page recommends Rev. 1.3 but gives no 'until at least' date (until 10/2023 it said January 2026, Wayback copy). The longevity document lists Pi 2B as '2030* (earliest last-time buy)'.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-2-model-b/",
+     "kind": "product page",
+     "quote": "For designs requiring Raspberry Pi 2, we recommend revision 1.3",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/1258-marketing-material/documents/RP-008008-MM-3-250304%20Raspberry%20Pi%20Longevity%20Marketing%20Doc.pdf",
+     "kind": "longevity document",
+     "quote": "Raspberry Pi 2B … 2030* (*Earliest last-time buy)",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "pi-3-model-b",
+   "name": "Raspberry Pi 3 Model B",
+   "short": "Pi 3 B",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2016-02-29",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-3-on-sale/",
+   "launch_source_secondary": false,
+   "production_until": "2028-01",
+   "production_until_label": "January 2028",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": "The longevity document lists Pi 3B as '2030* (earliest last-time buy)'; the product page says January 2028. I use the product page.",
+   "note": "Built as Rev. 1.2 with BCM2837B0 since PCN RP-001029; the original BCM2837 SoC is discontinued.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-3-model-b/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 3 Model B will remain in production until at least January 2028",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2016-02-29",
+     "variant": "1GB",
+     "usd": 35,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-3-on-sale/",
+     "source_published": "2016-02-29T07:00:04+00:00",
+     "quote": "Raspberry Pi 3 is now on sale for $35 (the same price as the existing Raspberry Pi 2)",
+     "note": null,
+     "belege_rows": [
+      9
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "1GB",
+    "variants": [
+     {
+      "variant": "1GB",
+      "sku": null,
+      "launch_usd": 35,
+      "launch_date": "2016-02-29",
+      "today_usd": 35,
+      "today_since": "2016-02-29",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 35,
+      "last_date": "2016-02-29",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 48.85,
+      "real_change_pct": -28.4,
+      "cpi_ref": "annual average 2016"
+     }
+    ],
+    "launch_min": 35,
+    "launch_max": 35,
+    "today_min": 35,
+    "today_max": 35
+   }
+  },
+  {
+   "id": "pi-3-model-b-plus",
+   "name": "Raspberry Pi 3 Model B+",
+   "short": "Pi 3 B+",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2018-03-14",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-3-model-bplus-sale-now-35/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": "Product page: January 2030. Product brief (PDF of 30 Sep 2025) and SBC product guide (April 2026): January 2028. The product page is the newer statement, so I use 2030.",
+   "note": "The product page's January 2030 was confirmed first-hand on 12 Oct 2026 (browser; curl is blocked by Cloudflare); the 2028 product brief was also checked directly.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 3 Model B+ will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/532-raspberry-pi-3-model-b/documents/RP-008338-DS-2-raspberry-pi-3-b-plus-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "Raspberry Pi 3 Model B+ will remain in production until at least January 2028",
+     "date": "2025-09-30",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": {
+    "url": "https://pip-assets.raspberrypi.com/categories/532-raspberry-pi-3-model-b/documents/RP-008338-DS-2-raspberry-pi-3-b-plus-product-brief.pdf",
+    "date": "2025-09",
+    "label": "Product brief RP-008338-DS-2 (list price $40)"
+   },
+   "featured": 11,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2018-03-14",
+     "variant": "1GB",
+     "usd": 35,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-3-model-bplus-sale-now-35/",
+     "source_published": "2018-03-14T07:00:01+00:00",
+     "quote": "Raspberry Pi 3 Model B+ is now on sale for $35 (the same price as the existing Raspberry Pi 3 Model B)",
+     "note": null,
+     "belege_rows": [
+      10
+     ]
+    },
+    {
+     "date": "2025-10-01",
+     "variant": "1GB",
+     "usd": 40,
+     "delta_usd": 5,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
+     "source_published": "2025-10-01T05:58:22+00:00",
+     "quote": "we’re increasing the price of Raspberry Pi 3B+ by $5 to $40",
+     "note": "Reason given in the post: costs not related to memory.",
+     "belege_rows": [
+      12
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "1GB",
+    "variants": [
+     {
+      "variant": "1GB",
+      "sku": null,
+      "launch_usd": 35,
+      "launch_date": "2018-03-14",
+      "today_usd": 40,
+      "today_since": "2025-10-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 40,
+      "last_date": "2025-10-01",
+      "change_pct": 14.3,
+      "launch_usd_cpi": 46.69,
+      "real_change_pct": -14.3,
+      "cpi_ref": "annual average 2018"
+     }
+    ],
+    "launch_min": 35,
+    "launch_max": 35,
+    "today_min": 40,
+    "today_max": 40
+   }
+  },
+  {
+   "id": "pi-3-model-a-plus",
+   "name": "Raspberry Pi 3 Model A+",
+   "short": "Pi 3 A+",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2018-11-15",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/new-product-raspberry-pi-3-model-a/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 3 Model A+ will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/512-raspberry-pi-3-model-a/documents/RP-008331-DS-1-raspberry-pi-3-a-plus-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "Raspberry Pi 3 Model A+ will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2018-11-15",
+     "variant": "512MB",
+     "usd": 25,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/new-product-raspberry-pi-3-model-a/",
+     "source_published": "2018-11-15T07:59:39+00:00",
+     "quote": "at the smaller price of $25.",
+     "note": null,
+     "belege_rows": [
+      11
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "512MB",
+    "variants": [
+     {
+      "variant": "512MB",
+      "sku": null,
+      "launch_usd": 25,
+      "launch_date": "2018-11-15",
+      "today_usd": 25,
+      "today_since": "2018-11-15",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 25,
+      "last_date": "2018-11-15",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 33.35,
+      "real_change_pct": -25.0,
+      "cpi_ref": "annual average 2018"
+     }
+    ],
+    "launch_min": 25,
+    "launch_max": 25,
+    "today_min": 25,
+    "today_max": 25
+   }
+  },
+  {
+   "id": "pi-4",
+   "name": "Raspberry Pi 4 Model B",
+   "short": "Pi 4",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2019-06-24",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-4-on-sale-now-from-35/",
+   "launch_source_secondary": false,
+   "production_until": "2034-01",
+   "production_until_label": "January 2034",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Extended: 2026, then 2031 (from about 10/2023), then 2034 (from about 12/2024). PCN 45 (30 Jan 2026) adds a PCB revision with two DRAM footprints; it is not a discontinuation. All RAM sizes are in the range; 3GB was added on 1 Apr 2026.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 4 Model B will remain in production until at least January 2034",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/545-raspberry-pi-4-model-b/documents/RP-008344-DS-7-raspberry-pi-4-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "Raspberry Pi 4 Model B will remain in production until at least January 2034",
+     "date": "2026-09-22",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": {
+    "url": "https://pip-assets.raspberrypi.com/categories/545-raspberry-pi-4-model-b/documents/RP-008344-DS-6-raspberry-pi-4-product-brief.pdf",
+    "date": "2026-10",
+    "label": "Product brief, published October 2026",
+    "belege_row": 36
+   },
+   "featured": 2,
+   "default_variant": "4GB",
+   "price_history": [
+    {
+     "date": "2019-06-24",
+     "variant": "1GB",
+     "usd": 35,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-4-on-sale-now-from-35/",
+     "source_published": "2019-06-24T06:00:14+00:00",
+     "quote": "retaining our signature $35 price for the entry-level model: 1GB $35 | 2GB $45 | 4GB $55",
+     "note": null,
+     "belege_rows": [
+      18
+     ]
+    },
+    {
+     "date": "2019-06-24",
+     "variant": "2GB",
+     "usd": 45,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-4-on-sale-now-from-35/",
+     "source_published": "2019-06-24T06:00:14+00:00",
+     "quote": "Retail price table: 1GB $35 | 2GB $45 | 4GB $55",
+     "note": null,
+     "belege_rows": [
+      19
+     ]
+    },
+    {
+     "date": "2019-06-24",
+     "variant": "4GB",
+     "usd": 55,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-4-on-sale-now-from-35/",
+     "source_published": "2019-06-24T06:00:14+00:00",
+     "quote": "Retail price table: 1GB $35 | 2GB $45 | 4GB $55",
+     "note": null,
+     "belege_rows": [
+      20
+     ]
+    },
+    {
+     "date": "2020-02-27",
+     "variant": "1GB",
+     "usd": 35,
+     "delta_usd": 0,
+     "event": "variant_withdrawn",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/new-price-raspberry-pi-4-2gb/",
+     "source_published": "2020-02-27T08:00:20+00:00",
+     "quote": "the 1GB product will remain available to industrial and commercial customers, at a list price of $35.",
+     "note": "1GB variant withdrawn from retail (industrial and commercial customers only). The post of 20 Oct 2021 calls this 'discontinuing the 1GB variant'.",
+     "belege_rows": [
+      22
+     ]
+    },
+    {
+     "date": "2020-02-27",
+     "variant": "2GB",
+     "usd": 35,
+     "delta_usd": -10,
+     "event": "cut",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/new-price-raspberry-pi-4-2gb/",
+     "source_published": "2020-02-27T08:00:20+00:00",
+     "quote": "The fall in RAM prices over the last year has allowed us to cut the price of the 2GB variant of Raspberry Pi 4 to $35.",
+     "note": null,
+     "belege_rows": [
+      21
+     ]
+    },
+    {
+     "date": "2020-05-28",
+     "variant": "8GB",
+     "usd": 75,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/8gb-raspberry-pi-4-on-sale-now-at-75/",
+     "source_published": "2020-05-28T07:02:01+00:00",
+     "quote": "The long-rumoured 8GB Raspberry Pi 4 is now available, priced at just $75.",
+     "note": null,
+     "belege_rows": [
+      23
+     ]
+    },
+    {
+     "date": "2021-10-20",
+     "variant": "1GB",
+     "usd": 35,
+     "delta_usd": 0,
+     "event": "variant_relaunch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/supply-chain-shortages-and-our-first-ever-price-increase/",
+     "source_published": "2021-10-20T09:10:07+00:00",
+     "quote": "we are reintroducing the 1GB variant at the $35 price point.",
+     "note": null,
+     "belege_rows": [
+      25
+     ]
+    },
+    {
+     "date": "2021-10-20",
+     "variant": "2GB",
+     "usd": 45,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/supply-chain-shortages-and-our-first-ever-price-increase/",
+     "source_published": "2021-10-20T09:10:07+00:00",
+     "quote": "We are therefore moving it back to $45 on a temporary basis.",
+     "note": "Officially 'our first-ever price increase', described as temporary.",
+     "belege_rows": [
+      24
+     ]
+    },
+    {
+     "date": "2025-12-01",
+     "variant": "4GB",
+     "usd": 60,
+     "delta_usd": 5,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+     "source_published": "2025-12-01T07:57:22+00:00",
+     "quote": "Raspberry Pi 4 | 4GB | $55 | $60",
+     "note": null,
+     "belege_rows": [
+      26
+     ]
+    },
+    {
+     "date": "2025-12-01",
+     "variant": "8GB",
+     "usd": 85,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+     "source_published": "2025-12-01T07:57:22+00:00",
+     "quote": "Raspberry Pi 4 | 8GB | $75 | $85",
+     "note": null,
+     "belege_rows": [
+      27
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "1GB",
+     "usd": 35,
+     "delta_usd": 0,
+     "event": "unchanged",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "including the $35 1GB Raspberry Pi 4 variant",
+     "note": null,
+     "belege_rows": [
+      28
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "2GB",
+     "usd": 55,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Memory density | Price increase … 2GB | $10",
+     "note": "$45 + $10. Confirmed by the April 2026 product brief ('2GB $55') and by the post of 1 Oct 2026 (+$12.50 to $67.50).",
+     "belege_rows": [
+      29
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "4GB",
+     "usd": 75,
+     "delta_usd": 15,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived",
+     "confirmed": false,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Memory density | Price increase … 4GB | $15",
+     "note": "$60 + $15. This intermediate value is never stated as an absolute price; the chain is closed by the April 2026 product brief ($100).",
+     "belege_rows": [
+      30
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "8GB",
+     "usd": 115,
+     "delta_usd": 30,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived",
+     "confirmed": false,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Memory density | Price increase … 8GB | $30",
+     "note": "$85 + $30. This intermediate value is never stated as an absolute price; the chain is closed by the April 2026 product brief ($165).",
+     "belege_rows": [
+      31
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "3GB",
+     "usd": 83.75,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "introducing a new 3GB Raspberry Pi 4, priced at $83.75.",
+     "note": "Posted on 1 April, but not a joke: the product briefs of April and October 2026 list '3GB $83.75'.",
+     "belege_rows": [
+      32
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "4GB",
+     "usd": 100,
+     "delta_usd": 25,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Raspberry Pi 4 and 5 | 4GB | $25",
+     "note": "Confirmed by the April 2026 product brief: '4GB $100'.",
+     "belege_rows": [
+      33
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "8GB",
+     "usd": 165,
+     "delta_usd": 50,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Raspberry Pi 4 and 5 | 8GB | $50",
+     "note": "Confirmed by the April 2026 product brief: '8GB $165'.",
+     "belege_rows": [
+      34
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "variant": "2GB",
+     "usd": 67.5,
+     "delta_usd": 12.5,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/price-increases-for-2gb-raspberry-pi-4-and-raspberry-pi-5/",
+     "source_published": "2026-10-01T09:06:19+00:00",
+     "quote": "we are increasing the price of the 2GB variants by $12.50, to $67.50 for Raspberry Pi 4 and $77.50 for Raspberry Pi 5.",
+     "note": null,
+     "belege_rows": [
+      35
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "4GB",
+    "variants": [
+     {
+      "variant": "1GB",
+      "sku": null,
+      "launch_usd": 35,
+      "launch_date": "2019-06-24",
+      "today_usd": 35,
+      "today_since": "2019-06-24",
+      "today_since_event": "launch",
+      "today_confirmed": true,
+      "last_usd": 35,
+      "last_date": "2026-02-02",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 45.86,
+      "real_change_pct": -23.7,
+      "cpi_ref": "annual average 2019"
+     },
+     {
+      "variant": "2GB",
+      "sku": null,
+      "launch_usd": 45,
+      "launch_date": "2019-06-24",
+      "today_usd": 67.5,
+      "today_since": "2026-10-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 67.5,
+      "last_date": "2026-10-01",
+      "change_pct": 50.0,
+      "launch_usd_cpi": 58.96,
+      "real_change_pct": 14.5,
+      "cpi_ref": "annual average 2019"
+     },
+     {
+      "variant": "3GB",
+      "sku": null,
+      "launch_usd": 83.75,
+      "launch_date": "2026-04-01",
+      "today_usd": 83.75,
+      "today_since": "2026-04-01",
+      "today_since_event": "launch",
+      "today_confirmed": true,
+      "last_usd": 83.75,
+      "last_date": "2026-04-01",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 84.24,
+      "real_change_pct": -0.6,
+      "cpi_ref": "2026-04"
+     },
+     {
+      "variant": "4GB",
+      "sku": null,
+      "launch_usd": 55,
+      "launch_date": "2019-06-24",
+      "today_usd": 100,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 100,
+      "last_date": "2026-04-01",
+      "change_pct": 81.8,
+      "launch_usd_cpi": 72.06,
+      "real_change_pct": 38.8,
+      "cpi_ref": "annual average 2019"
+     },
+     {
+      "variant": "8GB",
+      "sku": null,
+      "launch_usd": 75,
+      "launch_date": "2020-05-28",
+      "today_usd": 165,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 165,
+      "last_date": "2026-04-01",
+      "change_pct": 120.0,
+      "launch_usd_cpi": 97.07,
+      "real_change_pct": 70.0,
+      "cpi_ref": "annual average 2020"
+     }
+    ],
+    "launch_min": 35,
+    "launch_max": 55,
+    "today_min": 35,
+    "today_max": 165
+   }
+  },
+  {
+   "id": "pi-4-desktop-kit",
+   "name": "Raspberry Pi 4 Desktop Kit",
+   "short": "Pi 4 Kit",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": null,
+   "launch_note": null,
+   "launch_source": null,
+   "launch_source_secondary": false,
+   "production_until": "2026-01",
+   "production_until_label": "January 2026",
+   "status": "guarantee_passed",
+   "status_label": "Guarantee date passed",
+   "eol": null,
+   "conflict": null,
+   "note": "The guarantee date (January 2026) has passed; the product page is still online and no discontinuation has been announced.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-4-desktop-kit/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 4 Desktop Kit will remain in production until at least January 2026",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "pi-400",
+   "name": "Raspberry Pi 400 (unit + Personal Computer Kit)",
+   "short": "Pi 400",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2020-11-02",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-400-the-70-desktop-pc/",
+   "launch_source_secondary": false,
+   "production_until": "2028-01",
+   "production_until_label": "January 2028",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Extended: still 'January 2026' in October 2023 (pi3g, secondary). No EOL notice found; the 2022 product brief has no lifetime line. The $60 price was held in the April 2026 round.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-400-unit/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 400 unit will remain in production until at least January 2028",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-400/specifications/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 400 Personal Computer Kit will remain in production until at least January 2028",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": 5,
+   "default_variant": "Unit (4GB)",
+   "price_history": [
+    {
+     "date": "2020-11-02",
+     "variant": "Personal Computer Kit",
+     "usd": 100,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-400-the-70-desktop-pc/",
+     "source_published": "2020-11-02T07:57:16+00:00",
+     "quote": "Priced at just $70 for the computer on its own, or $100 for a ready-to-go kit",
+     "note": null,
+     "belege_rows": [
+      37
+     ]
+    },
+    {
+     "date": "2020-11-02",
+     "variant": "Unit (4GB)",
+     "usd": 70,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-400-the-70-desktop-pc/",
+     "source_published": "2020-11-02T07:57:16+00:00",
+     "quote": "Priced at just $70 for the computer on its own, or $100 for a ready-to-go kit",
+     "note": null,
+     "belege_rows": [
+      37
+     ]
+    },
+    {
+     "date": "2024-12-09",
+     "variant": "Personal Computer Kit",
+     "usd": 80,
+     "delta_usd": -20,
+     "event": "cut",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/",
+     "source_published": "2024-12-09T08:00:08+00:00",
+     "quote": "cut the price of Raspberry Pi 400 from $70 to $60, and the Raspberry Pi 400 Personal Computer Kit from $100 to $80.",
+     "note": "Kit cut from $100 to $80.",
+     "belege_rows": [
+      38
+     ]
+    },
+    {
+     "date": "2024-12-09",
+     "variant": "Unit (4GB)",
+     "usd": 60,
+     "delta_usd": -10,
+     "event": "cut",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/",
+     "source_published": "2024-12-09T08:00:08+00:00",
+     "quote": "cut the price of Raspberry Pi 400 from $70 to $60, and the Raspberry Pi 400 Personal Computer Kit from $100 to $80.",
+     "note": "Kit cut from $100 to $80.",
+     "belege_rows": [
+      38
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "Personal Computer Kit",
+     "usd": 80,
+     "delta_usd": 0,
+     "event": "unchanged",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "We’ve been able to hold the price of Raspberry Pi 400 with 4GB of memory at $60",
+     "note": "Kit $80 according to the April 2026 product brief.",
+     "belege_rows": [
+      39
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "Unit (4GB)",
+     "usd": 60,
+     "delta_usd": 0,
+     "event": "unchanged",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "We’ve been able to hold the price of Raspberry Pi 400 with 4GB of memory at $60",
+     "note": "Kit $80 according to the April 2026 product brief.",
+     "belege_rows": [
+      39
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "Unit (4GB)",
+    "variants": [
+     {
+      "variant": "Unit (4GB)",
+      "sku": null,
+      "launch_usd": 70,
+      "launch_date": "2020-11-02",
+      "today_usd": 60,
+      "today_since": "2024-12-09",
+      "today_since_event": "cut",
+      "today_confirmed": true,
+      "last_usd": 60,
+      "last_date": "2026-04-01",
+      "change_pct": -14.3,
+      "launch_usd_cpi": 90.6,
+      "real_change_pct": -33.8,
+      "cpi_ref": "annual average 2020"
+     },
+     {
+      "variant": "Personal Computer Kit",
+      "sku": null,
+      "launch_usd": 100,
+      "launch_date": "2020-11-02",
+      "today_usd": 80,
+      "today_since": "2024-12-09",
+      "today_since_event": "cut",
+      "today_confirmed": true,
+      "last_usd": 80,
+      "last_date": "2026-04-01",
+      "change_pct": -20.0,
+      "launch_usd_cpi": 129.43,
+      "real_change_pct": -38.2,
+      "cpi_ref": "annual average 2020"
+     }
+    ],
+    "launch_min": 70,
+    "launch_max": 100,
+    "today_min": 60,
+    "today_max": 80
+   }
+  },
+  {
+   "id": "pi-5",
+   "name": "Raspberry Pi 5",
+   "short": "Pi 5",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2023-09-28",
+   "launch_note": "Announced 28 Sep 2023, shipping from October 2023.",
+   "launch_source": "https://www.raspberrypi.com/news/introducing-raspberry-pi-5/",
+   "launch_source_secondary": false,
+   "production_until": "2036-01",
+   "production_until_label": "January 2036",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": "The product page, the product brief (PDF of 22 Sep 2026), the SBC product guide and the longevity document say January 2036. The news post of 17 Sep 2025 says 'guaranteed minimum manufacturing end date of January 2038'. I list 2036 until Raspberry Pi clarifies.",
+   "note": "All RAM sizes are in the range; 1GB was added on 1 Dec 2025.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-5/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 5 will remain in production until at least January 2036",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/news/raspberry-pis-commitment-to-longevity-a-sustainable-advantage/",
+     "kind": "longevity document",
+     "quote": "it has a guaranteed minimum manufacturing end date of January 2038",
+     "date": "2025-09-17",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": {
+    "url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008348-DS-7-raspberry-pi-5-product-brief.pdf",
+    "date": "2026-10",
+    "label": "Product brief, published October 2026",
+    "belege_row": 65
+   },
+   "featured": 1,
+   "default_variant": "4GB",
+   "price_history": [
+    {
+     "date": "2023-09-28",
+     "variant": "4GB",
+     "usd": 60,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/introducing-raspberry-pi-5/",
+     "source_published": "2023-09-28T05:59:39+00:00",
+     "quote": "Priced at $60 for the 4GB variant, and $80 for its 8GB sibling (plus your local taxes)",
+     "note": "Announced 28 Sep 2023, shipping from October 2023.",
+     "belege_rows": [
+      47
+     ]
+    },
+    {
+     "date": "2023-09-28",
+     "variant": "8GB",
+     "usd": 80,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/introducing-raspberry-pi-5/",
+     "source_published": "2023-09-28T05:59:39+00:00",
+     "quote": "Priced at $60 for the 4GB variant, and $80 for its 8GB sibling (plus your local taxes)",
+     "note": null,
+     "belege_rows": [
+      48
+     ]
+    },
+    {
+     "date": "2024-08-19",
+     "variant": "2GB",
+     "usd": 50,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/2gb-raspberry-pi-5-on-sale-now-at-50/",
+     "source_published": "2024-08-19T07:00:03+00:00",
+     "quote": "Priced at just $50, the new 2GB variant continues our mission",
+     "note": null,
+     "belege_rows": [
+      49
+     ]
+    },
+    {
+     "date": "2025-01-09",
+     "variant": "16GB",
+     "usd": 120,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/16gb-raspberry-pi-5-on-sale-now-at-120/",
+     "source_published": "2025-01-09T07:58:21+00:00",
+     "quote": "today we’re launching its bigger sibling, the 16GB variant, priced at $120.",
+     "note": null,
+     "belege_rows": [
+      50
+     ]
+    },
+    {
+     "date": "2025-12-01",
+     "variant": "16GB",
+     "usd": 145,
+     "delta_usd": 25,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+     "source_published": "2025-12-01T07:57:22+00:00",
+     "quote": "Raspberry Pi 5 | 16GB | $120 | $145",
+     "note": null,
+     "belege_rows": [
+      55
+     ]
+    },
+    {
+     "date": "2025-12-01",
+     "variant": "1GB",
+     "usd": 45,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+     "source_published": "2025-12-01T07:57:22+00:00",
+     "quote": "This brings our flagship platform … to a new low price point of $45.",
+     "note": null,
+     "belege_rows": [
+      51
+     ]
+    },
+    {
+     "date": "2025-12-01",
+     "variant": "2GB",
+     "usd": 55,
+     "delta_usd": 5,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+     "source_published": "2025-12-01T07:57:22+00:00",
+     "quote": "Raspberry Pi 5 | 2GB | $50 | $55",
+     "note": null,
+     "belege_rows": [
+      52
+     ]
+    },
+    {
+     "date": "2025-12-01",
+     "variant": "4GB",
+     "usd": 70,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+     "source_published": "2025-12-01T07:57:22+00:00",
+     "quote": "Raspberry Pi 5 | 4GB | $60 | $70",
+     "note": null,
+     "belege_rows": [
+      53
+     ]
+    },
+    {
+     "date": "2025-12-01",
+     "variant": "8GB",
+     "usd": 95,
+     "delta_usd": 15,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+     "source_published": "2025-12-01T07:57:22+00:00",
+     "quote": "Raspberry Pi 5 | 8GB | $80 | $95",
+     "note": null,
+     "belege_rows": [
+      54
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "16GB",
+     "usd": 205,
+     "delta_usd": 60,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived",
+     "confirmed": false,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Memory density | Price increase … 16GB | $60",
+     "note": "$145 + $60. This intermediate value is never stated as an absolute price; the chain is closed by the April 2026 product brief.",
+     "belege_rows": [
+      60
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "1GB",
+     "usd": 45,
+     "delta_usd": 0,
+     "event": "unchanged",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "and the $45 1GB Raspberry Pi 5 variant that we launched in December.",
+     "note": null,
+     "belege_rows": [
+      56
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "2GB",
+     "usd": 65,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Memory density | Price increase … 2GB | $10",
+     "note": "$55 + $10. Confirmed by the April 2026 product brief ('2GB $65') and by the post of 1 Oct 2026 (+$12.50 to $77.50).",
+     "belege_rows": [
+      57
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "4GB",
+     "usd": 85,
+     "delta_usd": 15,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived",
+     "confirmed": false,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Memory density | Price increase … 4GB | $15",
+     "note": "$70 + $15. This intermediate value is never stated as an absolute price; the chain is closed by the April 2026 product brief.",
+     "belege_rows": [
+      58
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "8GB",
+     "usd": 125,
+     "delta_usd": 30,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived",
+     "confirmed": false,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Memory density | Price increase … 8GB | $30",
+     "note": "$95 + $30. This intermediate value is never stated as an absolute price; the chain is closed by the April 2026 product brief.",
+     "belege_rows": [
+      59
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "16GB",
+     "usd": 305,
+     "delta_usd": 100,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Raspberry Pi 5 | 16GB | $100",
+     "note": "Confirmed by the April 2026 product brief: '16GB $305'.",
+     "belege_rows": [
+      63
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "4GB",
+     "usd": 110,
+     "delta_usd": 25,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Raspberry Pi 4 and 5 | 4GB | $25",
+     "note": "Confirmed by the April 2026 product brief: '4GB $110'.",
+     "belege_rows": [
+      61
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "8GB",
+     "usd": 175,
+     "delta_usd": 50,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Raspberry Pi 4 and 5 | 8GB | $50",
+     "note": "Confirmed by the April 2026 product brief: '8GB $175'.",
+     "belege_rows": [
+      62
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "variant": "2GB",
+     "usd": 77.5,
+     "delta_usd": 12.5,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/price-increases-for-2gb-raspberry-pi-4-and-raspberry-pi-5/",
+     "source_published": "2026-10-01T09:06:19+00:00",
+     "quote": "we are increasing the price of the 2GB variants by $12.50, to $67.50 for Raspberry Pi 4 and $77.50 for Raspberry Pi 5.",
+     "note": null,
+     "belege_rows": [
+      64
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "4GB",
+    "variants": [
+     {
+      "variant": "1GB",
+      "sku": null,
+      "launch_usd": 45,
+      "launch_date": "2025-12-01",
+      "today_usd": 45,
+      "today_since": "2025-12-01",
+      "today_since_event": "launch",
+      "today_confirmed": true,
+      "last_usd": 45,
+      "last_date": "2026-02-02",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 46.82,
+      "real_change_pct": -3.9,
+      "cpi_ref": "annual average 2025"
+     },
+     {
+      "variant": "2GB",
+      "sku": null,
+      "launch_usd": 50,
+      "launch_date": "2024-08-19",
+      "today_usd": 77.5,
+      "today_since": "2026-10-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 77.5,
+      "last_date": "2026-10-01",
+      "change_pct": 55.0,
+      "launch_usd_cpi": 53.39,
+      "real_change_pct": 45.2,
+      "cpi_ref": "annual average 2024"
+     },
+     {
+      "variant": "4GB",
+      "sku": null,
+      "launch_usd": 60,
+      "launch_date": "2023-09-28",
+      "today_usd": 110,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 110,
+      "last_date": "2026-04-01",
+      "change_pct": 83.3,
+      "launch_usd_cpi": 65.96,
+      "real_change_pct": 66.8,
+      "cpi_ref": "annual average 2023"
+     },
+     {
+      "variant": "8GB",
+      "sku": null,
+      "launch_usd": 80,
+      "launch_date": "2023-09-28",
+      "today_usd": 175,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 175,
+      "last_date": "2026-04-01",
+      "change_pct": 118.8,
+      "launch_usd_cpi": 87.95,
+      "real_change_pct": 99.0,
+      "cpi_ref": "annual average 2023"
+     },
+     {
+      "variant": "16GB",
+      "sku": null,
+      "launch_usd": 120,
+      "launch_date": "2025-01-09",
+      "today_usd": 305,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 305,
+      "last_date": "2026-04-01",
+      "change_pct": 154.2,
+      "launch_usd_cpi": 124.86,
+      "real_change_pct": 144.3,
+      "cpi_ref": "annual average 2025"
+     }
+    ],
+    "launch_min": 60,
+    "launch_max": 80,
+    "today_min": 45,
+    "today_max": 305
+   }
+  },
+  {
+   "id": "pi-500",
+   "name": "Raspberry Pi 500",
+   "short": "Pi 500",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2024-12-09",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/",
+   "launch_source_secondary": false,
+   "production_until": "2034-01",
+   "production_until_label": "January 2034",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Desktop Kit prices are part of this product's price history (variant 'Desktop Kit').",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-500/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 500 will remain in production until at least January 2034",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/1115-raspberry-pi-500/documents/RP-008349-DS-4-raspberry-pi-500-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "Raspberry Pi 500 will remain in production until at least January 2034",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": 4,
+   "default_variant": "Unit (8GB)",
+   "price_history": [
+    {
+     "date": "2024-12-09",
+     "variant": "Desktop Kit",
+     "usd": 120,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/",
+     "source_published": "2024-12-09T08:00:08+00:00",
+     "quote": "Raspberry Pi 500 is priced at $90, including a 32GB Raspberry Pi-branded SD card, and is also available in a $120 Desktop Kit",
+     "note": null,
+     "belege_rows": [
+      40
+     ]
+    },
+    {
+     "date": "2024-12-09",
+     "variant": "Unit (8GB)",
+     "usd": 90,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/",
+     "source_published": "2024-12-09T08:00:08+00:00",
+     "quote": "Raspberry Pi 500 is priced at $90, including a 32GB Raspberry Pi-branded SD card, and is also available in a $120 Desktop Kit",
+     "note": null,
+     "belege_rows": [
+      40
+     ]
+    },
+    {
+     "date": "2025-10-01",
+     "variant": "Desktop Kit",
+     "usd": 120,
+     "delta_usd": 0,
+     "event": "unchanged",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
+     "source_published": "2025-10-01T05:58:22+00:00",
+     "quote": "Raspberry Pi 500 unit-only increases by $10 to $100 … We’ve been able to hold the Raspberry Pi 500 kit price at $120",
+     "note": "Unit +$10 to $100; the Desktop Kit price was held at $120.",
+     "belege_rows": [
+      41
+     ]
+    },
+    {
+     "date": "2025-10-01",
+     "variant": "Unit (8GB)",
+     "usd": 100,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
+     "source_published": "2025-10-01T05:58:22+00:00",
+     "quote": "Raspberry Pi 500 unit-only increases by $10 to $100 … We’ve been able to hold the Raspberry Pi 500 kit price at $120",
+     "note": "Unit +$10 to $100; the Desktop Kit price was held at $120.",
+     "belege_rows": [
+      41
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "Desktop Kit",
+     "usd": 150,
+     "delta_usd": 30,
+     "event": "increase",
+     "basis": "assumption",
+     "basis_detail": "derived_assumption",
+     "confirmed": false,
+     "verified": false,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Raspberry Pi 500 and 500+ are affected",
+     "note": "Amount not stated in the post; +$30 taken from the memory-density table (8GB). Plausible: $130 + $50 (April) = $180, the April 2026 product brief value.",
+     "belege_rows": [
+      42
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "Unit (8GB)",
+     "usd": 130,
+     "delta_usd": 30,
+     "event": "increase",
+     "basis": "assumption",
+     "basis_detail": "derived_assumption",
+     "confirmed": false,
+     "verified": false,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Raspberry Pi 500 and 500+ are affected",
+     "note": "Amount not stated in the post; +$30 taken from the memory-density table (8GB). Plausible: $130 + $50 (April) = $180, the April 2026 product brief value.",
+     "belege_rows": [
+      42
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "Desktop Kit",
+     "usd": 200,
+     "delta_usd": 50,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Raspberry Pi 500 (unit only and kit) | $50",
+     "note": "April 2026 product brief: unit $180, Desktop Kit $200.",
+     "belege_rows": [
+      43
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "Unit (8GB)",
+     "usd": 180,
+     "delta_usd": 50,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Raspberry Pi 500 (unit only and kit) | $50",
+     "note": "April 2026 product brief: unit $180, Desktop Kit $200.",
+     "belege_rows": [
+      43
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "Unit (8GB)",
+    "variants": [
+     {
+      "variant": "Unit (8GB)",
+      "sku": null,
+      "launch_usd": 90,
+      "launch_date": "2024-12-09",
+      "today_usd": 180,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 180,
+      "last_date": "2026-04-01",
+      "change_pct": 100.0,
+      "launch_usd_cpi": 96.11,
+      "real_change_pct": 87.3,
+      "cpi_ref": "annual average 2024"
+     },
+     {
+      "variant": "Desktop Kit",
+      "sku": null,
+      "launch_usd": 120,
+      "launch_date": "2024-12-09",
+      "today_usd": 200,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 200,
+      "last_date": "2026-04-01",
+      "change_pct": 66.7,
+      "launch_usd_cpi": 128.14,
+      "real_change_pct": 56.1,
+      "cpi_ref": "annual average 2024"
+     }
+    ],
+    "launch_min": 90,
+    "launch_max": 120,
+    "today_min": 180,
+    "today_max": 200
+   }
+  },
+  {
+   "id": "pi-500-desktop-kit",
+   "name": "Raspberry Pi 500 Desktop Kit",
+   "short": "Pi 500 Kit",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2024-12-09",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/",
+   "launch_source_secondary": false,
+   "production_until": "2034-01",
+   "production_until_label": "January 2034",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Prices are listed under Raspberry Pi 500 (variant 'Desktop Kit').",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/500-desktop-kit/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 500 Desktop Kit will remain in production until at least January 2034",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "pi-500-plus",
+   "name": "Raspberry Pi 500+",
+   "short": "Pi 500+",
+   "family": "boards",
+   "family_label": "Boards & PCs",
+   "launch_date": "2025-09-25",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/the-ultimate-all-in-one-pc-raspberry-pi-500-plus-on-sale-now-at-200/",
+   "launch_source_secondary": false,
+   "production_until": "2035-01",
+   "production_until_label": "January 2035",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-500-plus/",
+     "kind": "product page",
+     "quote": "Raspberry Pi 500+ will remain in production until at least January 2035",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/1271-raspberry-pi-500/documents/RP-009158-MM-8-Raspberry%20Pi%20500_%20product%20brief.pdf",
+     "kind": "product brief",
+     "quote": "Raspberry Pi 500+ will remain in production until at least January 2035",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": 3,
+   "default_variant": "Unit (16GB)",
+   "price_history": [
+    {
+     "date": "2025-09-25",
+     "variant": "Desktop Kit",
+     "usd": 220,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/the-ultimate-all-in-one-pc-raspberry-pi-500-plus-on-sale-now-at-200/",
+     "source_published": "2025-09-25T06:58:39+00:00",
+     "quote": "is priced at $200. It is also available in a $220 Desktop Kit",
+     "note": null,
+     "belege_rows": [
+      44
+     ]
+    },
+    {
+     "date": "2025-09-25",
+     "variant": "Unit (16GB)",
+     "usd": 200,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/the-ultimate-all-in-one-pc-raspberry-pi-500-plus-on-sale-now-at-200/",
+     "source_published": "2025-09-25T06:58:39+00:00",
+     "quote": "is priced at $200. It is also available in a $220 Desktop Kit",
+     "note": null,
+     "belege_rows": [
+      44
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "Desktop Kit",
+     "usd": 280,
+     "delta_usd": 60,
+     "event": "increase",
+     "basis": "assumption",
+     "basis_detail": "derived_assumption",
+     "confirmed": false,
+     "verified": false,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Raspberry Pi 500 and 500+ are affected",
+     "note": "Amount not stated in the post; +$60 taken from the memory-density table (16GB). Plausible: $260 + $150 (April) = $410, the April 2026 product brief value.",
+     "belege_rows": [
+      45
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "Unit (16GB)",
+     "usd": 260,
+     "delta_usd": 60,
+     "event": "increase",
+     "basis": "assumption",
+     "basis_detail": "derived_assumption",
+     "confirmed": false,
+     "verified": false,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Raspberry Pi 500 and 500+ are affected",
+     "note": "Amount not stated in the post; +$60 taken from the memory-density table (16GB). Plausible: $260 + $150 (April) = $410, the April 2026 product brief value.",
+     "belege_rows": [
+      45
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "Desktop Kit",
+     "usd": 430,
+     "delta_usd": 150,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Raspberry Pi 500+ unit only | $150 … Raspberry Pi 500+ kit | $150",
+     "note": "April 2026 product brief: 'Raspberry Pi 500+ $410 USD / Desktop Kit $430 USD'.",
+     "belege_rows": [
+      46
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "Unit (16GB)",
+     "usd": 410,
+     "delta_usd": 150,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_confirmed",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Raspberry Pi 500+ unit only | $150 … Raspberry Pi 500+ kit | $150",
+     "note": "April 2026 product brief: 'Raspberry Pi 500+ $410 USD / Desktop Kit $430 USD'.",
+     "belege_rows": [
+      46
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "Unit (16GB)",
+    "variants": [
+     {
+      "variant": "Unit (16GB)",
+      "sku": null,
+      "launch_usd": 200,
+      "launch_date": "2025-09-25",
+      "today_usd": 410,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 410,
+      "last_date": "2026-04-01",
+      "change_pct": 105.0,
+      "launch_usd_cpi": 208.1,
+      "real_change_pct": 97.0,
+      "cpi_ref": "annual average 2025"
+     },
+     {
+      "variant": "Desktop Kit",
+      "sku": null,
+      "launch_usd": 220,
+      "launch_date": "2025-09-25",
+      "today_usd": 430,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 430,
+      "last_date": "2026-04-01",
+      "change_pct": 95.5,
+      "launch_usd_cpi": 228.91,
+      "real_change_pct": 87.8,
+      "cpi_ref": "annual average 2025"
+     }
+    ],
+    "launch_min": 200,
+    "launch_max": 220,
+    "today_min": 410,
+    "today_max": 430
+   }
+  },
+  {
+   "id": "zero",
+   "name": "Raspberry Pi Zero (incl. Zero H)",
+   "short": "Zero",
+   "family": "zero",
+   "family_label": "Zero",
+   "launch_date": "2015-11-26",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-zero/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Extended: 'January 2026' until at least 11/2023, 'January 2030' from 12/2025 at the latest (Wayback).",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-zero/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Zero will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2015-11-26",
+     "variant": "512MB",
+     "usd": 5,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-zero/",
+     "source_published": "2015-11-26T06:59:51+00:00",
+     "quote": "Today, I’m pleased to be able to announce the immediate availability of Raspberry Pi Zero, made in Wales and priced at just $5.",
+     "note": null,
+     "belege_rows": [
+      13
+     ]
+    },
+    {
+     "date": "2022-12-12",
+     "variant": "512MB",
+     "usd": 10,
+     "delta_usd": 5,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/supply-chain-update-its-good-news/",
+     "source_published": "2022-12-12T09:48:36+00:00",
+     "quote": "We have therefore reluctantly decided to increase the price of Zero from $5 to $10, and Zero W from $10 to $15.",
+     "note": "The post gives no effective date; date = publication date.",
+     "belege_rows": [
+      16
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "512MB",
+    "variants": [
+     {
+      "variant": "512MB",
+      "sku": null,
+      "launch_usd": 5,
+      "launch_date": "2015-11-26",
+      "today_usd": 10,
+      "today_since": "2022-12-12",
+      "today_since_event": "increase",
+      "today_confirmed": false,
+      "last_usd": 10,
+      "last_date": "2022-12-12",
+      "change_pct": 100.0,
+      "launch_usd_cpi": 7.07,
+      "real_change_pct": 41.4,
+      "cpi_ref": "annual average 2015"
+     }
+    ],
+    "launch_min": 5,
+    "launch_max": 5,
+    "today_min": 10,
+    "today_max": 10
+   }
+  },
+  {
+   "id": "zero-w",
+   "name": "Raspberry Pi Zero W (incl. WH)",
+   "short": "Zero W",
+   "family": "zero",
+   "family_label": "Zero",
+   "launch_date": "2017-02-28",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-zero-w-joins-family/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Extended: 2022 (2019), then 2026 (2020 to 10/2023), then 2030 (Wayback). Named 'still in production' in the April 2026 price post.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-zero-w/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Zero W will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2017-02-28",
+     "variant": "512MB",
+     "usd": 10,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-zero-w-joins-family/",
+     "source_published": "2017-02-28T09:00:13+00:00",
+     "quote": "meet Raspberry Pi Zero W, a new variant of Raspberry Pi Zero with wireless LAN and Bluetooth, priced at only $10.",
+     "note": null,
+     "belege_rows": [
+      14
+     ]
+    },
+    {
+     "date": "2022-12-12",
+     "variant": "512MB",
+     "usd": 15,
+     "delta_usd": 5,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/supply-chain-update-its-good-news/",
+     "source_published": "2022-12-12T09:48:36+00:00",
+     "quote": "We have therefore reluctantly decided to increase the price of Zero from $5 to $10, and Zero W from $10 to $15.",
+     "note": "The post gives no effective date; date = publication date.",
+     "belege_rows": [
+      17
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "512MB",
+    "variants": [
+     {
+      "variant": "512MB",
+      "sku": null,
+      "launch_usd": 10,
+      "launch_date": "2017-02-28",
+      "today_usd": 15,
+      "today_since": "2022-12-12",
+      "today_since_event": "increase",
+      "today_confirmed": false,
+      "last_usd": 15,
+      "last_date": "2022-12-12",
+      "change_pct": 50.0,
+      "launch_usd_cpi": 13.67,
+      "real_change_pct": 9.7,
+      "cpi_ref": "annual average 2017"
+     }
+    ],
+    "launch_min": 10,
+    "launch_max": 10,
+    "today_min": 15,
+    "today_max": 15
+   }
+  },
+  {
+   "id": "zero-2-w",
+   "name": "Raspberry Pi Zero 2 W",
+   "short": "Zero 2 W",
+   "family": "zero",
+   "family_label": "Zero",
+   "launch_date": "2021-10-28",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/new-raspberry-pi-zero-2-w-2/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Extended: 2028 (launch post 2021), then 2030 (from about 06/2024, Wayback).",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Zero 2 W will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/news/new-raspberry-pi-zero-2-w-2/",
+     "kind": "news post",
+     "quote": "We aim to keep Zero 2 W in production until at least January 2028",
+     "date": "2021-10-28",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": 6,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2021-10-28",
+     "variant": "512MB",
+     "usd": 15,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/new-raspberry-pi-zero-2-w-2/",
+     "source_published": "2021-10-28T06:00:03+00:00",
+     "quote": "Priced at $15, Raspberry Pi Zero 2 W uses the same Broadcom BCM2710A1 SoC die as the launch version of Raspberry Pi 3",
+     "note": null,
+     "belege_rows": [
+      15
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "512MB",
+    "variants": [
+     {
+      "variant": "512MB",
+      "sku": null,
+      "launch_usd": 15,
+      "launch_date": "2021-10-28",
+      "today_usd": 15,
+      "today_since": "2021-10-28",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 15,
+      "last_date": "2021-10-28",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 18.54,
+      "real_change_pct": -19.1,
+      "cpi_ref": "annual average 2021"
+     }
+    ],
+    "launch_min": 15,
+    "launch_max": 15,
+    "today_min": 15,
+    "today_max": 15
+   }
+  },
+  {
+   "id": "cm1",
+   "name": "Compute Module 1",
+   "short": "CM1",
+   "family": "compute",
+   "family_label": "Compute Modules",
+   "launch_date": "2014-04-07",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-compute-module-new-product/",
+   "launch_source_secondary": false,
+   "production_until": "2028-01",
+   "production_until_label": "January 2028",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Extended: 2023 (2019), then 2026 (10/2023, pi3g, secondary), then 2028. endoflife.date lists CM1 with EOL 1 Jan 2026, which is outdated.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/compute-module-1/",
+     "kind": "product page",
+     "quote": "Compute Module 1 will remain in production until at least January 2028",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/",
+     "kind": "news post",
+     "quote": "They [CM1/CM3] will continue to be available until at least January 2023 as previously stated",
+     "date": "2019-01-28",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2014-04-07",
+     "variant": "512MB",
+     "usd": 30,
+     "delta_usd": null,
+     "event": "announcement",
+     "basis": "approximate",
+     "basis_detail": "approximate",
+     "confirmed": false,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-compute-module-new-product/",
+     "source_published": "2014-04-07T12:01:09+00:00",
+     "quote": "with a unit cost of around $30 in batches of 100; you will also be able to buy them individually, but the price will be slightly higher.",
+     "note": "Not a list price: 'around $30' in batches of 100.",
+     "belege_rows": [
+      66
+     ]
+    },
+    {
+     "date": "2017-01-16",
+     "variant": "512MB",
+     "usd": 25,
+     "delta_usd": -5,
+     "event": "cut",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/compute-module-3-launch/",
+     "source_published": "2017-01-16T09:09:11+00:00",
+     "quote": "The original Compute Module is also reduced to $25.",
+     "note": null,
+     "belege_rows": [
+      67
+     ]
+    },
+    {
+     "date": "2025-10-01",
+     "variant": "512MB",
+     "usd": 25,
+     "delta_usd": 0,
+     "event": "unchanged",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": false,
+     "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
+     "source_published": "2025-10-01T05:58:22+00:00",
+     "quote": "reducing the price of Compute Module 1 by $5 to $25",
+     "note": "The October 2025 post says 'reducing the price of Compute Module 1 by $5 to $25', which is inconsistent with the 2017 cut to $25. Recorded here as no price change.",
+     "belege_rows": [
+      68
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "512MB",
+    "variants": [
+     {
+      "variant": "512MB",
+      "sku": null,
+      "launch_usd": 30,
+      "launch_date": "2014-04-07",
+      "today_usd": 25,
+      "today_since": "2017-01-16",
+      "today_since_event": "cut",
+      "today_confirmed": false,
+      "last_usd": 25,
+      "last_date": "2025-10-01",
+      "change_pct": -16.7,
+      "launch_usd_cpi": 42.45,
+      "real_change_pct": -41.1,
+      "cpi_ref": "annual average 2014"
+     }
+    ],
+    "launch_min": 30,
+    "launch_max": 30,
+    "today_min": 25,
+    "today_max": 25
+   }
+  },
+  {
+   "id": "cm3",
+   "name": "Compute Module 3 + CM3 Lite",
+   "short": "CM3",
+   "family": "compute",
+   "family_label": "Compute Modules",
+   "launch_date": "2017-01-16",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/compute-module-3-launch/",
+   "launch_source_secondary": false,
+   "production_until": null,
+   "production_until_label": null,
+   "status": "end_of_life",
+   "status_label": "End of life (formal notice)",
+   "eol": {
+    "notice": "Obsolescence Notice 2 (RP-009286), 6 Oct 2025, dates updated 4 Nov 2025",
+    "notice_date": "2025-10-06",
+    "eol": "2025-10-16",
+    "last_time_buy": "2025-11-28",
+    "last_time_ship": "2026-06-30",
+    "reason": "End of life of the main processor (SoC) used on the product.",
+    "alternative": "Compute Module 3+"
+   },
+   "conflict": "The longevity document lists CM3 as '2026* (earliest last-time buy)'; the obsolescence notice is binding.",
+   "note": "The product page still says 'last shipments will be made in June 2026' (future tense), outdated as of 12 Oct 2026. endoflife.date still lists CM3 with 2028, which is wrong.",
+   "lifecycle_sources": [
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/1284-eol-notices/documents/RP-009286-PC-3-OBS2_%20Raspberry%20Pi%20Compute%20Module%203%20and%20Raspberry%20Pi%20Compute%20Module%203%20Lite.pdf",
+     "kind": "obsolescence notice",
+     "quote": "End of life of core SoC used on the product.",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/products/compute-module-3/",
+     "kind": "product page",
+     "quote": "Compute Module 3 is now end-of-life, and last shipments will be made in June 2026",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": "CM3 (1GB, 4GB eMMC)",
+   "price_history": [
+    {
+     "date": "2017-01-16",
+     "variant": "CM3 (1GB, 4GB eMMC)",
+     "usd": 30,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/compute-module-3-launch/",
+     "source_published": "2017-01-16T09:09:11+00:00",
+     "quote": "CM3 and CM3L are priced at $30 and $25 respectively (excluding tax and shipping)",
+     "note": null,
+     "belege_rows": [
+      69
+     ]
+    },
+    {
+     "date": "2017-01-16",
+     "variant": "CM3 Lite (1GB)",
+     "usd": 25,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/compute-module-3-launch/",
+     "source_published": "2017-01-16T09:09:11+00:00",
+     "quote": "CM3 and CM3L are priced at $30 and $25 respectively",
+     "note": null,
+     "belege_rows": [
+      70
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "CM3 (1GB, 4GB eMMC)",
+    "variants": [
+     {
+      "variant": "CM3 (1GB, 4GB eMMC)",
+      "sku": null,
+      "launch_usd": 30,
+      "launch_date": "2017-01-16",
+      "today_usd": null,
+      "today_since": null,
+      "today_since_event": null,
+      "today_confirmed": false,
+      "last_usd": 30,
+      "last_date": "2017-01-16",
+      "change_pct": null,
+      "launch_usd_cpi": 41.0,
+      "real_change_pct": null,
+      "cpi_ref": "annual average 2017"
+     },
+     {
+      "variant": "CM3 Lite (1GB)",
+      "sku": null,
+      "launch_usd": 25,
+      "launch_date": "2017-01-16",
+      "today_usd": null,
+      "today_since": null,
+      "today_since_event": null,
+      "today_confirmed": false,
+      "last_usd": 25,
+      "last_date": "2017-01-16",
+      "change_pct": null,
+      "launch_usd_cpi": 34.16,
+      "real_change_pct": null,
+      "cpi_ref": "annual average 2017"
+     }
+    ],
+    "launch_min": 25,
+    "launch_max": 30,
+    "today_min": null,
+    "today_max": null
+   }
+  },
+  {
+   "id": "cm3-plus",
+   "name": "Compute Module 3+ (incl. Lite)",
+   "short": "CM3+",
+   "family": "compute",
+   "family_label": "Compute Modules",
+   "launch_date": "2019-01-28",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/",
+   "launch_source_secondary": false,
+   "production_until": "2028-01",
+   "production_until_label": "January 2028",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Extended: 2026 (launch post 2019), then 2028.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/compute-module-3-plus/",
+     "kind": "product page",
+     "quote": "Compute Module 3+ will remain in production until at least January 2028",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/",
+     "kind": "news post",
+     "quote": "CM3+ will be available until at least January 2026",
+     "date": "2019-01-28",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": "Lite",
+   "price_history": [
+    {
+     "date": "2019-01-28",
+     "variant": "16GB eMMC",
+     "usd": 35,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/",
+     "source_published": "2019-01-28T09:00:41+00:00",
+     "quote": "Unit price: Lite $25 | 8GB $30 | 16GB $35 | 32GB $40",
+     "note": "Range $25 to $40 depending on eMMC size.",
+     "belege_rows": [
+      71
+     ]
+    },
+    {
+     "date": "2019-01-28",
+     "variant": "32GB eMMC",
+     "usd": 40,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/",
+     "source_published": "2019-01-28T09:00:41+00:00",
+     "quote": "Unit price: Lite $25 | 8GB $30 | 16GB $35 | 32GB $40",
+     "note": "Range $25 to $40 depending on eMMC size.",
+     "belege_rows": [
+      71
+     ]
+    },
+    {
+     "date": "2019-01-28",
+     "variant": "8GB eMMC",
+     "usd": 30,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/",
+     "source_published": "2019-01-28T09:00:41+00:00",
+     "quote": "Unit price: Lite $25 | 8GB $30 | 16GB $35 | 32GB $40",
+     "note": "Range $25 to $40 depending on eMMC size.",
+     "belege_rows": [
+      71
+     ]
+    },
+    {
+     "date": "2019-01-28",
+     "variant": "Lite",
+     "usd": 25,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/",
+     "source_published": "2019-01-28T09:00:41+00:00",
+     "quote": "Unit price: Lite $25 | 8GB $30 | 16GB $35 | 32GB $40",
+     "note": "Range $25 to $40 depending on eMMC size.",
+     "belege_rows": [
+      71
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "Lite",
+    "variants": [
+     {
+      "variant": "Lite",
+      "sku": null,
+      "launch_usd": 25,
+      "launch_date": "2019-01-28",
+      "today_usd": 25,
+      "today_since": "2019-01-28",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 25,
+      "last_date": "2019-01-28",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 32.76,
+      "real_change_pct": -23.7,
+      "cpi_ref": "annual average 2019"
+     },
+     {
+      "variant": "8GB eMMC",
+      "sku": null,
+      "launch_usd": 30,
+      "launch_date": "2019-01-28",
+      "today_usd": 30,
+      "today_since": "2019-01-28",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 30,
+      "last_date": "2019-01-28",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 39.31,
+      "real_change_pct": -23.7,
+      "cpi_ref": "annual average 2019"
+     },
+     {
+      "variant": "16GB eMMC",
+      "sku": null,
+      "launch_usd": 35,
+      "launch_date": "2019-01-28",
+      "today_usd": 35,
+      "today_since": "2019-01-28",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 35,
+      "last_date": "2019-01-28",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 45.86,
+      "real_change_pct": -23.7,
+      "cpi_ref": "annual average 2019"
+     },
+     {
+      "variant": "32GB eMMC",
+      "sku": null,
+      "launch_usd": 40,
+      "launch_date": "2019-01-28",
+      "today_usd": 40,
+      "today_since": "2019-01-28",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 40,
+      "last_date": "2019-01-28",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 52.41,
+      "real_change_pct": -23.7,
+      "cpi_ref": "annual average 2019"
+     }
+    ],
+    "launch_min": 25,
+    "launch_max": 40,
+    "today_min": 25,
+    "today_max": 40
+   }
+  },
+  {
+   "id": "cm4",
+   "name": "Compute Module 4 (incl. Lite)",
+   "short": "CM4",
+   "family": "compute",
+   "family_label": "Compute Modules",
+   "launch_date": "2020-10-19",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-compute-module-4/",
+   "launch_source_secondary": false,
+   "production_until": "2034-01",
+   "production_until_label": "January 2034",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Extended: 2028 (2020 to 02/2023), then 2031 (from about 11/2023), then 2034 (from about 05/2024), Wayback.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/compute-module-4/",
+     "kind": "product page",
+     "quote": "Compute Module 4 will remain in production until at least January 2034",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/634-raspberry-pi-compute-module-4/documents/RP-008169-DS-8-cm4-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "Raspberry Pi Compute Module 4 will remain in production until at least January 2034",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": {
+    "url": "https://pip-assets.raspberrypi.com/categories/634-raspberry-pi-compute-module-4/documents/RP-008169-DS-8-cm4-product-brief.pdf",
+    "date": "2026-07",
+    "label": "Product brief, published July 2026",
+    "belege_row": 91
+   },
+   "featured": 8,
+   "default_variant": "1GB, Lite, no wireless",
+   "price_history": [
+    {
+     "date": "2020-10-19",
+     "variant": "1GB, Lite, no wireless",
+     "usd": 25,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-compute-module-4/",
+     "source_published": "2020-10-19T07:00:16+00:00",
+     "quote": "prices ranging from $25 (for the 1GB RAM, Lite, no wireless variant) to $90 (for the 8GB RAM, 32GB Flash, wireless variant).",
+     "note": "32 variants from $25 to $90. Individual variant prices were only listed in the product brief, which has since been overwritten.",
+     "belege_rows": [
+      72
+     ]
+    },
+    {
+     "date": "2020-10-19",
+     "variant": "8GB, 32GB eMMC, wireless",
+     "usd": 90,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-compute-module-4/",
+     "source_published": "2020-10-19T07:00:16+00:00",
+     "quote": "prices ranging from $25 (for the 1GB RAM, Lite, no wireless variant) to $90 (for the 8GB RAM, 32GB Flash, wireless variant).",
+     "note": "32 variants from $25 to $90. Individual variant prices were only listed in the product brief, which has since been overwritten.",
+     "belege_rows": [
+      72
+     ]
+    },
+    {
+     "date": "2022-12-12",
+     "variant": "1GB, Lite, no wireless",
+     "usd": 30,
+     "delta_usd": 5,
+     "event": "increase",
+     "basis": "assumption",
+     "basis_detail": "derived_assumption",
+     "confirmed": false,
+     "verified": false,
+     "source_url": "https://www.raspberrypi.com/news/supply-chain-update-its-good-news/",
+     "source_published": null,
+     "quote": null,
+     "note": "Launch price $25 plus the across-the-board $5 increase. The effective date is unknown; the step is placed at the date of the post that mentions it (12 Dec 2022).",
+     "belege_rows": [
+      72,
+      73
+     ]
+    },
+    {
+     "date": "2022-12-12",
+     "variant": "all variants",
+     "usd": null,
+     "delta_usd": 5,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": false,
+     "source_url": "https://www.raspberrypi.com/news/supply-chain-update-its-good-news/",
+     "source_published": "2022-12-12T09:48:36+00:00",
+     "quote": "Compute Module 4, where we applied an across-the-board $5 price increase to all variants.",
+     "note": "Effective date unknown (some time before 12 Dec 2022); the post mentions it retrospectively.",
+     "belege_rows": [
+      73
+     ]
+    },
+    {
+     "date": "2025-05-01",
+     "variant": "4GB variants (standard temperature)",
+     "usd": null,
+     "delta_usd": -5,
+     "event": "cut",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/lower-prices-for-4gb-and-8gb-compute-module-4/",
+     "source_published": "2025-05-01T13:19:15+00:00",
+     "quote": "it will cost you $5 less for a 4GB RAM variant, and $10 less for an 8GB RAM variant.",
+     "note": "Standard temperature range only.",
+     "belege_rows": [
+      74
+     ]
+    },
+    {
+     "date": "2025-05-01",
+     "variant": "8GB variants (standard temperature)",
+     "usd": null,
+     "delta_usd": -10,
+     "event": "cut",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/lower-prices-for-4gb-and-8gb-compute-module-4/",
+     "source_published": "2025-05-01T13:19:15+00:00",
+     "quote": "it will cost you $5 less for a 4GB RAM variant, and $10 less for an 8GB RAM variant.",
+     "note": "Standard temperature range only.",
+     "belege_rows": [
+      75
+     ]
+    },
+    {
+     "date": "2025-10-01",
+     "variant": "all 4GB variants",
+     "usd": null,
+     "delta_usd": 5,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
+     "source_published": "2025-10-01T05:58:22+00:00",
+     "quote": "4GB Compute Module 4 and Compute Module 5 variants increase by $5",
+     "note": "According to the post an exact reversal of the May 2025 cut.",
+     "belege_rows": [
+      76
+     ]
+    },
+    {
+     "date": "2025-10-01",
+     "variant": "all 8GB variants",
+     "usd": null,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
+     "source_published": "2025-10-01T05:58:22+00:00",
+     "quote": "8GB Compute Module 4 and Compute Module 5 variants increase by $10",
+     "note": "According to the post an exact reversal of the May 2025 cut.",
+     "belege_rows": [
+      78
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "all 2GB variants",
+     "usd": null,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "affecting all Raspberry Pi 4 and 5, and Compute Module 4 and 5, products that have 2GB or more of memory … 2GB | $10",
+     "note": null,
+     "belege_rows": [
+      81
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "all 4GB variants",
+     "usd": null,
+     "delta_usd": 15,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "affecting all Raspberry Pi 4 and 5, and Compute Module 4 and 5, products that have 2GB or more of memory … 4GB | $15",
+     "note": null,
+     "belege_rows": [
+      82
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "all 8GB variants",
+     "usd": null,
+     "delta_usd": 30,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "affecting all Raspberry Pi 4 and 5, and Compute Module 4 and 5, products that have 2GB or more of memory … 8GB | $30",
+     "note": null,
+     "belege_rows": [
+      83
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "1GB, Lite, no wireless",
+     "usd": 41.25,
+     "delta_usd": 11.25,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_calculated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": null,
+     "quote": null,
+     "note": "$30 + $11.25. Confirmed by the July 2026 product brief (CM4001000 $41.25).",
+     "belege_rows": [
+      85,
+      91
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 1GB variants",
+     "usd": null,
+     "delta_usd": 11.25,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4 and 4S 1GB | $11.25",
+     "note": null,
+     "belege_rows": [
+      85
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 2GB variants",
+     "usd": null,
+     "delta_usd": 12.5,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4, 4S, 5 2GB | $12.5",
+     "note": null,
+     "belege_rows": [
+      86
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 4GB variants",
+     "usd": null,
+     "delta_usd": 25,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4, 4S, 5 4GB | $25",
+     "note": null,
+     "belege_rows": [
+      87
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 8GB variants",
+     "usd": null,
+     "delta_usd": 50,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4, 4S, 5 8GB | $50",
+     "note": null,
+     "belege_rows": [
+      88
+     ]
+    },
+    {
+     "date": "2026-07",
+     "variant": "1GB, Lite, no wireless",
+     "sku": "CM4001000",
+     "usd": 41.25,
+     "delta_usd": 0.0,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/634-raspberry-pi-compute-module-4/documents/RP-008169-DS-8-cm4-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published July 2026 | CM4001000 $41.25 | CM4002000 $57.50 | CM4004000 $90 | CM4008000 $155 … CM4108064 $195",
+     "note": "Product brief 'Published July 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      91
+     ]
+    },
+    {
+     "date": "2026-07",
+     "variant": "2GB, Lite, no wireless",
+     "sku": "CM4002000",
+     "usd": 57.5,
+     "delta_usd": null,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/634-raspberry-pi-compute-module-4/documents/RP-008169-DS-8-cm4-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published July 2026 | CM4001000 $41.25 | CM4002000 $57.50 | CM4004000 $90 | CM4008000 $155 … CM4108064 $195",
+     "note": "Product brief 'Published July 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      91
+     ]
+    },
+    {
+     "date": "2026-07",
+     "variant": "4GB, Lite, no wireless",
+     "sku": "CM4004000",
+     "usd": 90,
+     "delta_usd": null,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/634-raspberry-pi-compute-module-4/documents/RP-008169-DS-8-cm4-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published July 2026 | CM4001000 $41.25 | CM4002000 $57.50 | CM4004000 $90 | CM4008000 $155 … CM4108064 $195",
+     "note": "Product brief 'Published July 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      91
+     ]
+    },
+    {
+     "date": "2026-07",
+     "variant": "8GB, 64GB eMMC, wireless",
+     "sku": "CM4108064",
+     "usd": 195,
+     "delta_usd": null,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/634-raspberry-pi-compute-module-4/documents/RP-008169-DS-8-cm4-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published July 2026 | CM4001000 $41.25 | CM4002000 $57.50 | CM4004000 $90 | CM4008000 $155 … CM4108064 $195",
+     "note": "Product brief 'Published July 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      91
+     ]
+    },
+    {
+     "date": "2026-07",
+     "variant": "8GB, Lite, no wireless",
+     "sku": "CM4008000",
+     "usd": 155,
+     "delta_usd": null,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/634-raspberry-pi-compute-module-4/documents/RP-008169-DS-8-cm4-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published July 2026 | CM4001000 $41.25 | CM4002000 $57.50 | CM4004000 $90 | CM4008000 $155 … CM4108064 $195",
+     "note": "Product brief 'Published July 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      91
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "1GB, Lite, no wireless",
+    "variants": [
+     {
+      "variant": "1GB, Lite, no wireless",
+      "sku": "CM4001000",
+      "launch_usd": 25,
+      "launch_date": "2020-10-19",
+      "today_usd": 41.25,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 41.25,
+      "last_date": "2026-07",
+      "change_pct": 65.0,
+      "launch_usd_cpi": 32.36,
+      "real_change_pct": 27.5,
+      "cpi_ref": "annual average 2020"
+     },
+     {
+      "variant": "2GB, Lite, no wireless",
+      "sku": "CM4002000",
+      "launch_usd": null,
+      "launch_date": null,
+      "today_usd": 57.5,
+      "today_since": "2026-07",
+      "today_since_event": "current_list",
+      "today_confirmed": true,
+      "last_usd": 57.5,
+      "last_date": "2026-07",
+      "change_pct": null,
+      "launch_usd_cpi": null,
+      "real_change_pct": null
+     },
+     {
+      "variant": "4GB, Lite, no wireless",
+      "sku": "CM4004000",
+      "launch_usd": null,
+      "launch_date": null,
+      "today_usd": 90,
+      "today_since": "2026-07",
+      "today_since_event": "current_list",
+      "today_confirmed": true,
+      "last_usd": 90,
+      "last_date": "2026-07",
+      "change_pct": null,
+      "launch_usd_cpi": null,
+      "real_change_pct": null
+     },
+     {
+      "variant": "8GB, Lite, no wireless",
+      "sku": "CM4008000",
+      "launch_usd": null,
+      "launch_date": null,
+      "today_usd": 155,
+      "today_since": "2026-07",
+      "today_since_event": "current_list",
+      "today_confirmed": true,
+      "last_usd": 155,
+      "last_date": "2026-07",
+      "change_pct": null,
+      "launch_usd_cpi": null,
+      "real_change_pct": null
+     },
+     {
+      "variant": "8GB, 32GB eMMC, wireless",
+      "sku": null,
+      "launch_usd": 90,
+      "launch_date": "2020-10-19",
+      "today_usd": null,
+      "today_since": null,
+      "today_since_event": null,
+      "today_confirmed": false,
+      "last_usd": 90,
+      "last_date": "2020-10-19",
+      "change_pct": null,
+      "launch_usd_cpi": 116.49,
+      "real_change_pct": null,
+      "cpi_ref": "annual average 2020"
+     },
+     {
+      "variant": "8GB, 64GB eMMC, wireless",
+      "sku": "CM4108064",
+      "launch_usd": null,
+      "launch_date": null,
+      "today_usd": 195,
+      "today_since": "2026-07",
+      "today_since_event": "current_list",
+      "today_confirmed": true,
+      "last_usd": 195,
+      "last_date": "2026-07",
+      "change_pct": null,
+      "launch_usd_cpi": null,
+      "real_change_pct": null
+     }
+    ],
+    "launch_min": 25,
+    "launch_max": 90,
+    "today_min": 41.25,
+    "today_max": 195
+   }
+  },
+  {
+   "id": "cm4s",
+   "name": "Compute Module 4S",
+   "short": "CM4S",
+   "family": "compute",
+   "family_label": "Compute Modules",
+   "launch_date": "2022-04-04",
+   "launch_note": "Launch date from secondary sources only (endoflife.date, Jeff Geerling).",
+   "launch_source": "https://www.jeffgeerling.com/blog/2022/new-raspberry-pi-compute-module-4s",
+   "launch_source_secondary": true,
+   "production_until": "2034-01",
+   "production_until_label": "January 2034",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Extended: 2031 (10/2023, pi3g, secondary), then 2034 (news post of 24 Apr 2024). Only price changes (deltas) are documented, no absolute list price.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/compute-module-4s/",
+     "kind": "product page",
+     "quote": "Compute Module 4S will remain in production until at least January 2034",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/news/new-memory-variants-for-the-raspberry-pi-compute-module-family/",
+     "kind": "news post",
+     "quote": "We will keep Compute Module 4S in production until at least January 2034",
+     "date": "2024-04-24",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2026-04-01",
+     "variant": "all 1GB variants",
+     "usd": null,
+     "delta_usd": 11.25,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4 and 4S 1GB | $11.25",
+     "note": null,
+     "belege_rows": [
+      85
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 2GB variants",
+     "usd": null,
+     "delta_usd": 12.5,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4, 4S, 5 2GB | $12.5",
+     "note": null,
+     "belege_rows": [
+      86
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 4GB variants",
+     "usd": null,
+     "delta_usd": 25,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4, 4S, 5 4GB | $25",
+     "note": null,
+     "belege_rows": [
+      87
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 8GB variants",
+     "usd": null,
+     "delta_usd": 50,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4, 4S, 5 8GB | $50",
+     "note": null,
+     "belege_rows": [
+      88
+     ]
+    }
+   ],
+   "price_summary": null
+  },
+  {
+   "id": "cm5",
+   "name": "Compute Module 5 (incl. CM5 Lite)",
+   "short": "CM5",
+   "family": "compute",
+   "family_label": "Compute Modules",
+   "launch_date": "2024-11-27",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/compute-module-5-on-sale-now/",
+   "launch_source_secondary": false,
+   "production_until": "2036-01",
+   "production_until_label": "January 2036",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/compute-module-5/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Compute Module 5 will remain in production until at least January 2036",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "Raspberry Pi Compute Module 5 will remain in production until at least January 2036",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": {
+    "url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+    "date": "2026-09",
+    "label": "Product brief, published September 2026",
+    "belege_row": 92
+   },
+   "featured": 7,
+   "default_variant": "2GB, Lite, no wireless",
+   "price_history": [
+    {
+     "date": "2024-11-27",
+     "variant": "2GB, Lite, no wireless",
+     "usd": 45,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/compute-module-5-on-sale-now/",
+     "source_published": "2024-11-27T07:59:03+00:00",
+     "quote": "the modular version of our flagship Raspberry Pi 5 single-board computer, priced from just $45.",
+     "note": "'From $45' = cheapest variant. Back-calculation $67.50 - $12.50 - $10 = $45 is consistent.",
+     "belege_rows": [
+      90
+     ]
+    },
+    {
+     "date": "2025-10-01",
+     "variant": "all 4GB variants",
+     "usd": null,
+     "delta_usd": 5,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
+     "source_published": "2025-10-01T05:58:22+00:00",
+     "quote": "4GB Compute Module 4 and Compute Module 5 variants increase by $5",
+     "note": null,
+     "belege_rows": [
+      77
+     ]
+    },
+    {
+     "date": "2025-10-01",
+     "variant": "all 8GB variants",
+     "usd": null,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
+     "source_published": "2025-10-01T05:58:22+00:00",
+     "quote": "8GB Compute Module 4 and Compute Module 5 variants increase by $10",
+     "note": null,
+     "belege_rows": [
+      79
+     ]
+    },
+    {
+     "date": "2025-12-01",
+     "variant": "all 16GB variants",
+     "usd": null,
+     "delta_usd": 20,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+     "source_published": "2025-12-01T07:57:22+00:00",
+     "quote": "We’re also increasing the price of 16GB variants of Compute Module 5, which remained unchanged in October, by $20.",
+     "note": null,
+     "belege_rows": [
+      80
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "2GB, Lite, no wireless",
+     "usd": 55,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_calculated",
+     "confirmed": false,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": null,
+     "quote": null,
+     "note": "$45 + $10. This intermediate value is never stated as an absolute price.",
+     "belege_rows": [
+      90,
+      81
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "all 16GB variants",
+     "usd": null,
+     "delta_usd": 60,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "Memory density | Price increase … 16GB | $60",
+     "note": null,
+     "belege_rows": [
+      84
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "all 2GB variants",
+     "usd": null,
+     "delta_usd": 10,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "affecting all Raspberry Pi 4 and 5, and Compute Module 4 and 5, products that have 2GB or more of memory … 2GB | $10",
+     "note": null,
+     "belege_rows": [
+      81
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "all 4GB variants",
+     "usd": null,
+     "delta_usd": 15,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "affecting all Raspberry Pi 4 and 5, and Compute Module 4 and 5, products that have 2GB or more of memory … 4GB | $15",
+     "note": null,
+     "belege_rows": [
+      82
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "variant": "all 8GB variants",
+     "usd": null,
+     "delta_usd": 30,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+     "source_published": "2026-02-02T06:55:15+00:00",
+     "quote": "affecting all Raspberry Pi 4 and 5, and Compute Module 4 and 5, products that have 2GB or more of memory … 8GB | $30",
+     "note": null,
+     "belege_rows": [
+      83
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "2GB, Lite, no wireless",
+     "usd": 67.5,
+     "delta_usd": 12.5,
+     "event": "increase",
+     "basis": "calculated",
+     "basis_detail": "derived_calculated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": null,
+     "quote": null,
+     "note": "$55 + $12.50. Confirmed by the September 2026 product brief (CM5002000 $67.50); the post of 1 Oct 2026 leaves CM5 2GB unchanged.",
+     "belege_rows": [
+      86,
+      92
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 16GB variants",
+     "usd": null,
+     "delta_usd": 100,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 5 16GB | $100",
+     "note": null,
+     "belege_rows": [
+      89
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 2GB variants",
+     "usd": null,
+     "delta_usd": 12.5,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4, 4S, 5 2GB | $12.5",
+     "note": null,
+     "belege_rows": [
+      86
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 4GB variants",
+     "usd": null,
+     "delta_usd": 25,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4, 4S, 5 4GB | $25",
+     "note": null,
+     "belege_rows": [
+      87
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "variant": "all 8GB variants",
+     "usd": null,
+     "delta_usd": 50,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+     "source_published": "2026-04-01T05:55:38+00:00",
+     "quote": "Compute Module 4, 4S, 5 8GB | $50",
+     "note": null,
+     "belege_rows": [
+      88
+     ]
+    },
+    {
+     "date": "2026-09",
+     "variant": "16GB, 64GB eMMC, wireless",
+     "sku": "CM5116064",
+     "usd": 375,
+     "delta_usd": null,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published September 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $335 … CM5116064 $375",
+     "note": "Product brief 'Published September 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      92
+     ]
+    },
+    {
+     "date": "2026-09",
+     "variant": "16GB, Lite, no wireless",
+     "sku": "CM5016000",
+     "usd": 335,
+     "delta_usd": null,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published September 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $335 … CM5116064 $375",
+     "note": "Product brief 'Published September 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      92
+     ]
+    },
+    {
+     "date": "2026-09",
+     "variant": "2GB, Lite, no wireless",
+     "sku": "CM5002000",
+     "usd": 67.5,
+     "delta_usd": 0.0,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published September 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $335 … CM5116064 $375",
+     "note": "Product brief 'Published September 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      92
+     ]
+    },
+    {
+     "date": "2026-09",
+     "variant": "4GB, Lite, no wireless",
+     "sku": "CM5004000",
+     "usd": 100,
+     "delta_usd": null,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published September 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $335 … CM5116064 $375",
+     "note": "Product brief 'Published September 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      92
+     ]
+    },
+    {
+     "date": "2026-09",
+     "variant": "8GB, Lite, no wireless",
+     "sku": "CM5008000",
+     "usd": 165,
+     "delta_usd": null,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published September 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $335 … CM5116064 $375",
+     "note": "Product brief 'Published September 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      92
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "2GB, Lite, no wireless",
+    "variants": [
+     {
+      "variant": "2GB, Lite, no wireless",
+      "sku": "CM5002000",
+      "launch_usd": 45,
+      "launch_date": "2024-11-27",
+      "today_usd": 67.5,
+      "today_since": "2026-04-01",
+      "today_since_event": "increase",
+      "today_confirmed": true,
+      "last_usd": 67.5,
+      "last_date": "2026-09",
+      "change_pct": 50.0,
+      "launch_usd_cpi": 48.05,
+      "real_change_pct": 40.5,
+      "cpi_ref": "annual average 2024"
+     },
+     {
+      "variant": "4GB, Lite, no wireless",
+      "sku": "CM5004000",
+      "launch_usd": null,
+      "launch_date": null,
+      "today_usd": 100,
+      "today_since": "2026-09",
+      "today_since_event": "current_list",
+      "today_confirmed": true,
+      "last_usd": 100,
+      "last_date": "2026-09",
+      "change_pct": null,
+      "launch_usd_cpi": null,
+      "real_change_pct": null
+     },
+     {
+      "variant": "8GB, Lite, no wireless",
+      "sku": "CM5008000",
+      "launch_usd": null,
+      "launch_date": null,
+      "today_usd": 165,
+      "today_since": "2026-09",
+      "today_since_event": "current_list",
+      "today_confirmed": true,
+      "last_usd": 165,
+      "last_date": "2026-09",
+      "change_pct": null,
+      "launch_usd_cpi": null,
+      "real_change_pct": null
+     },
+     {
+      "variant": "16GB, Lite, no wireless",
+      "sku": "CM5016000",
+      "launch_usd": null,
+      "launch_date": null,
+      "today_usd": 335,
+      "today_since": "2026-09",
+      "today_since_event": "current_list",
+      "today_confirmed": true,
+      "last_usd": 335,
+      "last_date": "2026-09",
+      "change_pct": null,
+      "launch_usd_cpi": null,
+      "real_change_pct": null
+     },
+     {
+      "variant": "16GB, 64GB eMMC, wireless",
+      "sku": "CM5116064",
+      "launch_usd": null,
+      "launch_date": null,
+      "today_usd": 375,
+      "today_since": "2026-09",
+      "today_since_event": "current_list",
+      "today_confirmed": true,
+      "last_usd": 375,
+      "last_date": "2026-09",
+      "change_pct": null,
+      "launch_usd_cpi": null,
+      "real_change_pct": null
+     }
+    ],
+    "launch_min": 45,
+    "launch_max": 45,
+    "today_min": 67.5,
+    "today_max": 375
+   }
+  },
+  {
+   "id": "cm0",
+   "name": "Compute Module 0",
+   "short": "CM0",
+   "family": "compute",
+   "family_label": "Compute Modules",
+   "launch_date": null,
+   "launch_note": "Launch date not verified (product brief PDF dated 09/2025).",
+   "launch_source": null,
+   "launch_source_secondary": false,
+   "production_until": null,
+   "production_until_label": null,
+   "status": "active_no_date",
+   "status_label": "In production, no end date published",
+   "eol": null,
+   "conflict": null,
+   "note": "Neither the product page nor the product brief (RP-009404-MM-1) contains an obsolescence statement.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/compute-module-zero/",
+     "kind": "product page",
+     "quote": null,
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": false,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "pico",
+   "name": "Raspberry Pi Pico (incl. Pico H)",
+   "short": "Pico",
+   "family": "pico",
+   "family_label": "Pico & chips",
+   "launch_date": "2021-01-21",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-silicon-pico-now-on-sale/",
+   "launch_source_secondary": false,
+   "production_until": "2036-01",
+   "production_until_label": "January 2036",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": "Product page: 'Pico 1 series' until at least January 2036. Product brief (01/2021, never updated): January 2028.",
+   "note": "Extended: 2028 (brief 2021), then 2034 (10/2023, pi3g, secondary), then 2036. Longevity document: Pico/Pico W 2036*.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-pico/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Pico 1 series will remain in production until at least January 2036",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008308-DS-1-pico-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "Raspberry Pi Pico will remain in production until at least January 2028",
+     "date": "2021-01",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": "Pico",
+   "price_history": [
+    {
+     "date": "2021-01-21",
+     "variant": "Pico",
+     "usd": 4,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-silicon-pico-now-on-sale/",
+     "source_published": "2021-01-21T06:59:06+00:00",
+     "quote": "Priced at just $4, it is built on RP2040",
+     "note": null,
+     "belege_rows": [
+      93
+     ]
+    },
+    {
+     "date": "2022-06-30",
+     "variant": "Pico H",
+     "usd": 5,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/",
+     "source_published": "2022-06-30T06:58:15+00:00",
+     "quote": "Pico H ($5) and Pico WH ($7) add pre-populated headers",
+     "note": null,
+     "belege_rows": [
+      95
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "Pico",
+    "variants": [
+     {
+      "variant": "Pico",
+      "sku": null,
+      "launch_usd": 4,
+      "launch_date": "2021-01-21",
+      "today_usd": 4,
+      "today_since": "2021-01-21",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 4,
+      "last_date": "2021-01-21",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 4.94,
+      "real_change_pct": -19.0,
+      "cpi_ref": "annual average 2021"
+     },
+     {
+      "variant": "Pico H",
+      "sku": null,
+      "launch_usd": 5,
+      "launch_date": "2022-06-30",
+      "today_usd": 5,
+      "today_since": "2022-06-30",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 5,
+      "last_date": "2022-06-30",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 5.72,
+      "real_change_pct": -12.6,
+      "cpi_ref": "annual average 2022"
+     }
+    ],
+    "launch_min": 4,
+    "launch_max": 4,
+    "today_min": 4,
+    "today_max": 5
+   }
+  },
+  {
+   "id": "pico-w",
+   "name": "Raspberry Pi Pico W (incl. WH)",
+   "short": "Pico W",
+   "family": "pico",
+   "family_label": "Pico & chips",
+   "launch_date": "2022-06-30",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/",
+   "launch_source_secondary": false,
+   "production_until": "2036-01",
+   "production_until_label": "January 2036",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "No own product page (/raspberry-pi-pico-w/ returns 404); covered by 'Pico 1 series'. Launch source corrected: /news/raspberry-pi-pico-w/ is a project post of 15 Jul 2022.",
+   "lifecycle_sources": [
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/686-raspberry-pi-pico-w/documents/RP-008313-DS-1-pico-w-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "Raspberry Pi Pico W will remain in production until at least January 2036",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-pico/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Pico 1 series will remain in production until at least January 2036",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": "Pico W",
+   "price_history": [
+    {
+     "date": "2022-06-30",
+     "variant": "Pico W",
+     "usd": 6,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/",
+     "source_published": "2022-06-30T06:58:15+00:00",
+     "quote": "Raspberry Pi Pico W is priced at $6",
+     "note": null,
+     "belege_rows": [
+      94
+     ]
+    },
+    {
+     "date": "2022-06-30",
+     "variant": "Pico WH",
+     "usd": 7,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/",
+     "source_published": "2022-06-30T06:58:15+00:00",
+     "quote": "Pico H ($5) and Pico WH ($7) add pre-populated headers",
+     "note": null,
+     "belege_rows": [
+      96
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "Pico W",
+    "variants": [
+     {
+      "variant": "Pico W",
+      "sku": null,
+      "launch_usd": 6,
+      "launch_date": "2022-06-30",
+      "today_usd": 6,
+      "today_since": "2022-06-30",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 6,
+      "last_date": "2022-06-30",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 6.87,
+      "real_change_pct": -12.7,
+      "cpi_ref": "annual average 2022"
+     },
+     {
+      "variant": "Pico WH",
+      "sku": null,
+      "launch_usd": 7,
+      "launch_date": "2022-06-30",
+      "today_usd": 7,
+      "today_since": "2022-06-30",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 7,
+      "last_date": "2022-06-30",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 8.01,
+      "real_change_pct": -12.6,
+      "cpi_ref": "annual average 2022"
+     }
+    ],
+    "launch_min": 6,
+    "launch_max": 7,
+    "today_min": 6,
+    "today_max": 7
+   }
+  },
+  {
+   "id": "pico-2",
+   "name": "Raspberry Pi Pico 2",
+   "short": "Pico 2",
+   "family": "pico",
+   "family_label": "Pico & chips",
+   "launch_date": "2024-08-08",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-pico-2-our-new-5-microcontroller-board-on-sale-now/",
+   "launch_source_secondary": false,
+   "production_until": "2040-01",
+   "production_until_label": "January 2040",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-pico-2/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Pico 2 series will remain in production until at least January 2040",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/1005-raspberry-pi-pico-2/documents/RP-008302-DS-2-pico-2-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "Raspberry Pi Pico 2 will remain in production until at least January 2040",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": 10,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2024-08-08",
+     "variant": "Pico 2",
+     "usd": 5,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-pico-2-our-new-5-microcontroller-board-on-sale-now/",
+     "source_published": "2024-08-08T14:59:32+00:00",
+     "quote": "Pico 2 is on sale now, priced at $5.",
+     "note": null,
+     "belege_rows": [
+      97
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "Pico 2",
+    "variants": [
+     {
+      "variant": "Pico 2",
+      "sku": null,
+      "launch_usd": 5,
+      "launch_date": "2024-08-08",
+      "today_usd": 5,
+      "today_since": "2024-08-08",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 5,
+      "last_date": "2024-08-08",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 5.34,
+      "real_change_pct": -6.4,
+      "cpi_ref": "annual average 2024"
+     }
+    ],
+    "launch_min": 5,
+    "launch_max": 5,
+    "today_min": 5,
+    "today_max": 5
+   }
+  },
+  {
+   "id": "pico-2-w",
+   "name": "Raspberry Pi Pico 2 W",
+   "short": "Pico 2 W",
+   "family": "pico",
+   "family_label": "Pico & chips",
+   "launch_date": "2024-11-25",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-pico-2-w-on-sale-now/",
+   "launch_source_secondary": false,
+   "production_until": "2040-01",
+   "production_until_label": "January 2040",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "No own sentence; covered by 'Pico 2 series'. Longevity document: 'Pico 2 / Pico 2 W 2040*'.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-pico-2/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Pico 2 series will remain in production until at least January 2040",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": 9,
+   "default_variant": null,
+   "price_history": [
+    {
+     "date": "2024-11-25",
+     "variant": "Pico 2 W",
+     "usd": 7,
+     "delta_usd": null,
+     "event": "launch",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/raspberry-pi-pico-2-w-on-sale-now/",
+     "source_published": "2024-11-25T07:59:19+00:00",
+     "quote": "priced at just $7, it’s the perfect centrepiece for your connected Internet of Things projects.",
+     "note": null,
+     "belege_rows": [
+      98
+     ]
+    }
+   ],
+   "price_summary": {
+    "default_variant": "Pico 2 W",
+    "variants": [
+     {
+      "variant": "Pico 2 W",
+      "sku": null,
+      "launch_usd": 7,
+      "launch_date": "2024-11-25",
+      "today_usd": 7,
+      "today_since": "2024-11-25",
+      "today_since_event": "launch",
+      "today_confirmed": false,
+      "last_usd": 7,
+      "last_date": "2024-11-25",
+      "change_pct": 0.0,
+      "launch_usd_cpi": 7.48,
+      "real_change_pct": -6.4,
+      "cpi_ref": "annual average 2024"
+     }
+    ],
+    "launch_min": 7,
+    "launch_max": 7,
+    "today_min": 7,
+    "today_max": 7
+   }
+  },
+  {
+   "id": "rp2040",
+   "name": "RP2040 (chip)",
+   "short": "RP2040",
+   "family": "pico",
+   "family_label": "Pico & chips",
+   "launch_date": "2021-01-21",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-silicon-pico-now-on-sale/",
+   "launch_source_secondary": false,
+   "production_until": "2041-01",
+   "production_until_label": "January 2041",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "Wording 'We expect', weaker than for the boards.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/rp2040/specifications/",
+     "kind": "product page",
+     "quote": "We expect RP2040 to remain in production until at least January 2041",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "rp2350",
+   "name": "RP2350 (chip)",
+   "short": "RP2350",
+   "family": "pico",
+   "family_label": "Pico & chips",
+   "launch_date": "2024-08-08",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-pico-2-our-new-5-microcontroller-board-on-sale-now/",
+   "launch_source_secondary": false,
+   "production_until": "2045-01",
+   "production_until_label": "January 2045",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/rp2350/",
+     "kind": "product page",
+     "quote": "RP2350 will remain in production until at least January 2045",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008374-DS-1-rp2350-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "We expect RP2350 to remain in production until at least January 2045",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "touch-display",
+   "name": "Touch Display (7-inch, 2015)",
+   "short": "Touch Display",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2015-09-08",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/the-eagerly-awaited-raspberry-pi-display/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": "No longer recommended for new designs.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-touch-display/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Touch Display will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/news/raspberry-pi-touch-display-2-on-sale-now-at-60/",
+     "kind": "news post",
+     "quote": "the original Touch Display will remain in production for the foreseeable future, though it is no longer recommended for new designs",
+     "date": "2024-11-04",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "touch-display-2",
+   "name": "Touch Display 2 (5/7/10-inch)",
+   "short": "Touch Display 2",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2024-11-04",
+   "launch_note": "7-inch on 4 Nov 2024; 10-inch since 22 Jul 2026.",
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-touch-display-2-on-sale-now-at-60/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/touch-display-2/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Touch Display 2 will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/news/raspberry-pi-touch-display-2-on-sale-now-at-60/",
+     "kind": "news post",
+     "quote": "Touch Display 2 will remain in production until 2030 at the earliest",
+     "date": "2024-11-04",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "camera-module-2",
+   "name": "Camera Module 2 (+ NoIR)",
+   "short": "Camera 2",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2016-04-25",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/new-8-megapixel-camera-board-sale-25/",
+   "launch_source_secondary": false,
+   "production_until": "2028-01",
+   "production_until_label": "January 2028",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/camera-module-v2/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Camera Module 2 will remain in production until at least January 2028",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/products/pi-noir-camera-v2/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Camera Module 2 NoIR will remain in production until at least January 2028",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "camera-module-3",
+   "name": "Camera Module 3 (all variants)",
+   "short": "Camera 3",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2023-01-09",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/new-autofocus-camera-modules/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/camera-module-3/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Camera Module 3 will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "hq-camera",
+   "name": "High Quality Camera",
+   "short": "HQ Camera",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2020-04-30",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/new-product-raspberry-pi-high-quality-camera-on-sale-now-at-50/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/",
+     "kind": "product page",
+     "quote": "Raspberry Pi High Quality Camera will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "global-shutter-camera",
+   "name": "Global Shutter Camera",
+   "short": "GS Camera",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2023-03-09",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/new-raspberry-pi-global-shutter-camera/",
+   "launch_source_secondary": false,
+   "production_until": "2032-01",
+   "production_until_label": "January 2032",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-global-shutter-camera/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Global Shutter Camera will remain in production until at least January 2032",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "ai-camera",
+   "name": "AI Camera",
+   "short": "AI Camera",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2024-09-30",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-ai-camera-on-sale-now/",
+   "launch_source_secondary": false,
+   "production_until": "2028-01",
+   "production_until_label": "January 2028",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/ai-camera/",
+     "kind": "product page",
+     "quote": "Raspberry Pi AI Camera will remain in production until at least January 2028",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "monitor",
+   "name": "Raspberry Pi Monitor",
+   "short": "Monitor",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2024-12-09",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/",
+   "launch_source_secondary": false,
+   "production_until": "2034-01",
+   "production_until_label": "January 2034",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/raspberry-pi-monitor/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Monitor will remain in production until at least January 2034",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "ai-kit",
+   "name": "AI Kit (Hailo-8L + M.2 HAT+)",
+   "short": "AI Kit",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2024-06-04",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-ai-kit-available-now-at-70/",
+   "launch_source_secondary": false,
+   "production_until": null,
+   "production_until_label": null,
+   "status": "discontinued",
+   "status_label": "No longer in production",
+   "eol": null,
+   "conflict": null,
+   "note": "No obsolescence notice on PIP; the successor is the AI HAT+.",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/ai-kit/",
+     "kind": "product page",
+     "quote": "The Raspberry Pi AI Kit is no longer in production",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "ai-hat-plus",
+   "name": "AI HAT+ (13/26 TOPS)",
+   "short": "AI HAT+",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2024-10-24",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-ai-hat/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/ai-hat/",
+     "kind": "product page",
+     "quote": "Raspberry Pi AI HAT+ will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "ai-hat-plus-2",
+   "name": "AI HAT+ 2",
+   "short": "AI HAT+ 2",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2026-01-15",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/introducing-the-raspberry-pi-ai-hat-plus-2-generative-ai-on-raspberry-pi-5/",
+   "launch_source_secondary": false,
+   "production_until": "2036-01",
+   "production_until_label": "January 2036",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/ai-hat-plus-2/",
+     "kind": "product page",
+     "quote": "Raspberry Pi AI HAT+ 2 will remain in production until at least January 2036",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "debug-probe",
+   "name": "Debug Probe",
+   "short": "Debug Probe",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": "2023-02-20",
+   "launch_note": null,
+   "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-debug-probe-a-plug-and-play-debug-kit-for-12/",
+   "launch_source_secondary": false,
+   "production_until": "2030-01",
+   "production_until_label": "January 2030",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": "Product page: January 2030. Product brief (02/2023): January 2028.",
+   "note": "Extended from 2028 to 2030 (pi3g already listed 2030 in 10/2023).",
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/debug-probe/",
+     "kind": "product page",
+     "quote": "Raspberry Pi Debug Probe will remain in production until at least January 2030",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://pip-assets.raspberrypi.com/categories/885-raspberry-pi-debug-probe/documents/RP-008193-DS-1-raspberry-pi-debug-probe-product-brief.pdf",
+     "kind": "product brief",
+     "quote": "The Raspberry Pi Debug Probe will remain in production until at least January 2028",
+     "date": "2023-02",
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  },
+  {
+   "id": "ssd",
+   "name": "Raspberry Pi SSD / SSD Kit",
+   "short": "SSD",
+   "family": "accessories",
+   "family_label": "Accessories",
+   "launch_date": null,
+   "launch_note": "Around October 2024, not verified.",
+   "launch_source": null,
+   "launch_source_secondary": false,
+   "production_until": "2032-01",
+   "production_until_label": "January 2032",
+   "status": "active",
+   "status_label": "In production",
+   "eol": null,
+   "conflict": null,
+   "note": null,
+   "lifecycle_sources": [
+    {
+     "url": "https://www.raspberrypi.com/products/ssd/",
+     "kind": "product page",
+     "quote": "Raspberry Pi SSD will remain in production until at least January 2032",
+     "date": null,
+     "checked": "2026-10-12"
+    },
+    {
+     "url": "https://www.raspberrypi.com/products/ssd-kit/",
+     "kind": "product page",
+     "quote": "Raspberry Pi SSD Kit will remain in production until at least January 2032",
+     "date": null,
+     "checked": "2026-10-12"
+    }
+   ],
+   "lifecycle_checked": "2026-10-12",
+   "verified_primary": true,
+   "current_source": null,
+   "featured": null,
+   "default_variant": null,
+   "price_history": [],
+   "price_summary": null
+  }
+ ],
+ "events": [
+  {
+   "id": "2015-05-model-b-plus-cut",
+   "date": "2015-05-14",
+   "type": "cut",
+   "major": false,
+   "title": "Model B+ cut to $25",
+   "summary": "The Pi 1 Model B+ drops from $35 to $25.",
+   "source_url": "https://www.raspberrypi.com/news/price-cut-raspberry-pi-model-b-now-only-25/",
+   "timeline_anchor": null
+  },
+  {
+   "id": "2020-02-pi-4-2gb-cut",
+   "date": "2020-02-27",
+   "type": "cut",
+   "major": true,
+   "title": "Pi 4 2GB cut to $35",
+   "summary": "Falling RAM prices: the 2GB Pi 4 drops from $45 to $35; the 1GB model stays available to industrial customers only.",
+   "source_url": "https://www.raspberrypi.com/news/new-price-raspberry-pi-4-2gb/",
+   "timeline_anchor": null
+  },
+  {
+   "id": "2021-10-first-increase",
+   "date": "2021-10-20",
+   "type": "increase",
+   "major": false,
+   "title": "First-ever price increase",
+   "summary": "Supply-chain shortages: the 2GB Pi 4 goes back to $45 'on a temporary basis', the 1GB returns at $35.",
+   "source_url": "https://www.raspberrypi.com/news/supply-chain-shortages-and-our-first-ever-price-increase/",
+   "timeline_anchor": null
+  },
+  {
+   "id": "2022-12-zero-increase",
+   "date": "2022-12-12",
+   "type": "increase",
+   "major": false,
+   "title": "Zero and Zero W +$5",
+   "summary": "Zero from $5 to $10, Zero W from $10 to $15.",
+   "source_url": "https://www.raspberrypi.com/news/supply-chain-update-its-good-news/",
+   "timeline_anchor": null
+  },
+  {
+   "id": "2024-12-pi-400-cut",
+   "date": "2024-12-09",
+   "type": "cut",
+   "major": false,
+   "title": "Pi 400 cut to $60",
+   "summary": "Pi 400 from $70 to $60, Personal Computer Kit from $100 to $80.",
+   "source_url": "https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/",
+   "timeline_anchor": null
+  },
+  {
+   "id": "2025-10-round-1",
+   "date": "2025-10-01",
+   "type": "increase",
+   "major": true,
+   "round": 1,
+   "title": "Round 1: $5 to $10 on some 4GB and 8GB products",
+   "summary": "Compute Modules CM4 and CM5: 4GB +$5 and 8GB +$10; Pi 500 +$10; Pi 3B+ +$5 (costs not related to memory). Pi 4 and Pi 5 boards unchanged.",
+   "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
+   "timeline_anchor": null
+  },
+  {
+   "id": "2025-12-round-2",
+   "date": "2025-12-01",
+   "type": "increase",
+   "major": true,
+   "round": 2,
+   "title": "Round 2: memory-driven rises and a $45 Pi 5",
+   "summary": "Pi 4 4GB/8GB +$5/+$10, Pi 5 2GB to 16GB +$5 to +$25, Compute Module 5 (CM5) 16GB +$20. New 1GB Pi 5 at $45.",
+   "source_url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+   "timeline_anchor": "e-2025-12-ram-preiskrise"
+  },
+  {
+   "id": "2026-02-round-3",
+   "date": "2026-02-02",
+   "type": "increase",
+   "major": true,
+   "round": 3,
+   "title": "Round 3: every model with 2GB or more",
+   "summary": "All Pi 4, Pi 5 and Compute Module 4/5 (CM4/CM5) products with 2GB or more: +$10 (2GB), +$15 (4GB), +$30 (8GB), +$60 (16GB). Pi 500 and 500+ affected. 1GB Pi 4 and Pi 5 boards unchanged.",
+   "source_url": "https://www.raspberrypi.com/news/more-memory-driven-price-rises/",
+   "timeline_anchor": null
+  },
+  {
+   "id": "2026-04-round-4",
+   "date": "2026-04-01",
+   "type": "increase",
+   "major": true,
+   "round": 4,
+   "title": "Round 4: the biggest step, plus a 3GB Pi 4",
+   "summary": "Pi 4/Pi 5 4GB +$25, 8GB +$50, Pi 5 16GB +$100; Compute Modules CM4, CM4S and CM5 +$11.25 (1GB) to +$100 (16GB); Pi 500 +$50, Pi 500+ +$150. New 3GB Pi 4 at $83.75; Pi 400 held at $60. 1GB Pi 4 and Pi 5 boards unchanged.",
+   "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
+   "timeline_anchor": "e-2026-04-3gb-pi-4"
+  },
+  {
+   "id": "2026-10-round-5",
+   "date": "2026-10-01",
+   "type": "increase",
+   "major": true,
+   "round": 5,
+   "title": "Round 5: 2GB boards +$12.50",
+   "summary": "Pi 4 2GB to $67.50, Pi 5 2GB to $77.50. 1GB Pi 4 and Pi 5 boards and CM4/CM5 2GB unchanged.",
+   "source_url": "https://www.raspberrypi.com/news/price-increases-for-2gb-raspberry-pi-4-and-raspberry-pi-5/",
+   "timeline_anchor": null
+  }
+ ],
+ "extension_history": [
+  {
+   "product_id": "pi-4",
+   "product": "Raspberry Pi 4 Model B",
+   "snapshots": [
+    {
+     "snapshot": "2019-06-24",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-02-25",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-10-28",
+     "until": "2031-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2024-12-27",
+     "until": "2034-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2026-10-12",
+     "until": "2034-01",
+     "note": "live product page",
+     "secondary": false
+    }
+   ]
+  },
+  {
+   "product_id": "cm4",
+   "product": "Compute Module 4 (incl. Lite)",
+   "snapshots": [
+    {
+     "snapshot": "2020-10-23",
+     "until": "2028-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-02-23",
+     "until": "2028-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-11-06",
+     "until": "2031-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2024-05-11",
+     "until": "2034-01",
+     "note": null,
+     "secondary": false
+    }
+   ]
+  },
+  {
+   "product_id": "pi-3-model-b-plus",
+   "product": "Raspberry Pi 3 Model B+",
+   "snapshots": [
+    {
+     "snapshot": "2018-03-14",
+     "until": "2023-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2019-06-10",
+     "until": "2023-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2020-01-06",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-02-26",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-11-09",
+     "until": "2028-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2026-02-24",
+     "until": "2030-01",
+     "note": null,
+     "secondary": false
+    }
+   ]
+  },
+  {
+   "product_id": "pi-3-model-b",
+   "product": "Raspberry Pi 3 Model B",
+   "snapshots": [
+    {
+     "snapshot": "2019-06-09",
+     "until": "2022-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2019-12-30",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-02-26",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-10-28",
+     "until": "2028-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2026-02-28",
+     "until": "2028-01",
+     "note": null,
+     "secondary": false
+    }
+   ]
+  },
+  {
+   "product_id": "pi-3-model-a-plus",
+   "product": "Raspberry Pi 3 Model A+",
+   "snapshots": [
+    {
+     "snapshot": "2018-11-15",
+     "until": "2023-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2019-10-15",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-02-16",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-11-27",
+     "until": "2028-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2025-01-09",
+     "until": "2030-01",
+     "note": null,
+     "secondary": false
+    }
+   ]
+  },
+  {
+   "product_id": "zero",
+   "product": "Raspberry Pi Zero (incl. Zero H)",
+   "snapshots": [
+    {
+     "snapshot": "2019-06-05",
+     "until": "2022-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2020-01-01",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-11-16",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2025-12-17",
+     "until": "2030-01",
+     "note": null,
+     "secondary": false
+    }
+   ]
+  },
+  {
+   "product_id": "zero-w",
+   "product": "Raspberry Pi Zero W (incl. WH)",
+   "snapshots": [
+    {
+     "snapshot": "2019-06-24",
+     "until": "2022-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2020-01-15",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-10-23",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2026-08-04",
+     "until": "2030-01",
+     "note": null,
+     "secondary": false
+    }
+   ]
+  },
+  {
+   "product_id": "zero-2-w",
+   "product": "Raspberry Pi Zero 2 W",
+   "snapshots": [
+    {
+     "snapshot": "2021-10-28",
+     "until": "2028-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-11-03",
+     "until": "2028-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2024-06-03",
+     "until": "2030-01",
+     "note": null,
+     "secondary": false
+    }
+   ]
+  },
+  {
+   "product_id": "pi-2-model-b",
+   "product": "Raspberry Pi 2 Model B (Rev. 1.1/1.2)",
+   "snapshots": [
+    {
+     "snapshot": "2019-06-02",
+     "until": "2022-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2019-12-22",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-10-30",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2025-11-05",
+     "until": null,
+     "note": "EOL 16 Oct 2025 (Rev. 1.1/1.2)",
+     "secondary": false
+    }
+   ]
+  },
+  {
+   "product_id": "pi-1-model-b-plus",
+   "product": "Raspberry Pi 1 Model B+",
+   "snapshots": [
+    {
+     "snapshot": "2019-06-05",
+     "until": "2022-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2019-11-15",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2023-10-07",
+     "until": "2026-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2025-07-03",
+     "until": "2030-01",
+     "note": null,
+     "secondary": false
+    }
+   ]
+  },
+  {
+   "product_id": "pi-5",
+   "product": "Raspberry Pi 5",
+   "snapshots": [
+    {
+     "snapshot": "2023-10",
+     "until": null,
+     "note": "no date yet (TBA, to be announced)",
+     "secondary": true
+    },
+    {
+     "snapshot": "2025-07-02",
+     "until": "2036-01",
+     "note": null,
+     "secondary": false
+    },
+    {
+     "snapshot": "2026-03-01",
+     "until": "2036-01",
+     "note": null,
+     "secondary": false
+    }
+   ]
+  }
+ ],
+ "eol_notices": [
+  {
+   "notice": "Obsolescence Notice 1 (RP-009284), 6 Oct 2025, dates updated 4 Nov 2025",
+   "notice_date": "2025-10-06",
+   "eol": "2025-10-16",
+   "last_time_buy": "2025-11-28",
+   "last_time_ship": "2026-06-30",
+   "reason": "End of life of the main processor (SoC) used on the product.",
+   "alternative": "Raspberry Pi 2 Model B Rev. 1.3 (BCM2837B0)",
+   "product_id": "pi-2-model-b",
+   "product": "Raspberry Pi 2 Model B (Rev. 1.1/1.2)",
+   "source_url": "https://pip-assets.raspberrypi.com/categories/1283-eol-notices/documents/RP-009284-PC-3-Raspberry%20Pi%202%20Model%20B%20revision%201.1,%201.2.pdf"
+  },
+  {
+   "notice": "Obsolescence Notice 2 (RP-009286), 6 Oct 2025, dates updated 4 Nov 2025",
+   "notice_date": "2025-10-06",
+   "eol": "2025-10-16",
+   "last_time_buy": "2025-11-28",
+   "last_time_ship": "2026-06-30",
+   "reason": "End of life of the main processor (SoC) used on the product.",
+   "alternative": "Compute Module 3+",
+   "product_id": "cm3",
+   "product": "Compute Module 3 + CM3 Lite",
+   "source_url": "https://pip-assets.raspberrypi.com/categories/1284-eol-notices/documents/RP-009286-PC-3-OBS2_%20Raspberry%20Pi%20Compute%20Module%203%20and%20Raspberry%20Pi%20Compute%20Module%203%20Lite.pdf"
+  }
+ ],
+ "conflicts": [
+  {
+   "product_id": "pi-3-model-b",
+   "product": "Raspberry Pi 3 Model B",
+   "text": "The longevity document lists Pi 3B as '2030* (earliest last-time buy)'; the product page says January 2028. I use the product page."
+  },
+  {
+   "product_id": "pi-3-model-b-plus",
+   "product": "Raspberry Pi 3 Model B+",
+   "text": "Product page: January 2030. Product brief (PDF of 30 Sep 2025) and SBC product guide (April 2026): January 2028. The product page is the newer statement, so I use 2030."
+  },
+  {
+   "product_id": "pi-5",
+   "product": "Raspberry Pi 5",
+   "text": "The product page, the product brief (PDF of 22 Sep 2026), the SBC product guide and the longevity document say January 2036. The news post of 17 Sep 2025 says 'guaranteed minimum manufacturing end date of January 2038'. I list 2036 until Raspberry Pi clarifies."
+  },
+  {
+   "product_id": "cm3",
+   "product": "Compute Module 3 + CM3 Lite",
+   "text": "The longevity document lists CM3 as '2026* (earliest last-time buy)'; the obsolescence notice is binding."
+  },
+  {
+   "product_id": "pico",
+   "product": "Raspberry Pi Pico (incl. Pico H)",
+   "text": "Product page: 'Pico 1 series' until at least January 2036. Product brief (01/2021, never updated): January 2028."
+  },
+  {
+   "product_id": "debug-probe",
+   "product": "Debug Probe",
+   "text": "Product page: January 2030. Product brief (02/2023): January 2028."
+  }
+ ],
+ "cpi": {
+  "series": "CUUR0000SA0 (CPI-U, U.S. city average, all items, 1982-84=100, not seasonally adjusted)",
+  "source_url": "https://data.bls.gov/timeseries/CUUR0000SA0",
+  "retrieved": "2026-10-12",
+  "annual_average": {
+   "2012": 229.594,
+   "2013": 232.957,
+   "2014": 236.736,
+   "2015": 237.017,
+   "2016": 240.007,
+   "2017": 245.12,
+   "2018": 251.107,
+   "2019": 255.657,
+   "2020": 258.811,
+   "2021": 270.97,
+   "2022": 292.655,
+   "2023": 304.702,
+   "2024": 313.689,
+   "2025": 321.943
+  },
+  "monthly_2026": {
+   "2026-01": 325.252,
+   "2026-02": 326.785,
+   "2026-03": 330.213,
+   "2026-04": 333.02,
+   "2026-05": 335.123,
+   "2026-06": 333.952,
+   "2026-07": 333.918,
+   "2026-08": 334.98
+  },
+  "latest_month": "2026-08",
+  "latest_value": 334.98,
+  "method": "Launch price x CPI(latest month) / CPI(annual average of the launch year; for 2026 launches the launch month).",
+  "check_usd35_2012_to_latest": 51.07,
+  "crosscheck_2020": {
+   "calculated_2012_to_2020": 39.45,
+   "official_quote": "thanks to inflation, $35 in 2012 is equivalent to nearly $40 today.",
+   "source_url": "https://www.raspberrypi.com/news/new-price-raspberry-pi-4-2gb/"
+  }
+ },
+ "open_issues": [
+  "Pi 500 / 500+ in February 2026: the post only says they 'are affected'. $130/$150 and $260/$280 are taken from the memory-density table (basis 'assumption'). The April 2026 end values are confirmed by product briefs.",
+  "Intermediate February 2026 values (Pi 4 4GB $75, 8GB $115; Pi 5 4GB $85, 8GB $125, 16GB $205) are calculated from stated increases; the chain is closed by the April 2026 product briefs.",
+  "Compute Module 4/5 historical variant prices are not published any more: older product-brief versions redirect to the current one. Only launch ranges, all increases and the current SKU lists are documented. Full histories exist only for CM4 1GB Lite and CM5 2GB Lite (forward-calculated, confirmed by the current briefs).",
+  "Compute Module 4 +$5 across-the-board increase: effective date unknown (before 12 Dec 2022); placed at 12 Dec 2022 as an assumption.",
+  "Compute Module 1: cut to $25 in 2017, then 'reduced by $5 to $25' in October 2025. An increase back to $30 in between is not documented; the October 2025 record is kept as 'no price change'.",
+  "Compute Module 5 16GB: launch date and launch price not found.",
+  "Compute Module 4S: only increases (deltas) are documented, no absolute list price; launch date only from secondary sources.",
+  "Not captured: Zero WH, Zero 2 WH, Pico 2 H/WH, Model A+ 512MB revision.",
+  "Current prices of Zero, Zero W, Zero 2 W, Pi 3B, Pi 3A+, Pi 1 B+/A+, CM3+ and the Picos are the last officially stated prices. The 2025/26 posts say older products were not affected, but the product pages could not be checked (Cloudflare) and the Zero 2 W brief has no price.",
+  "Pi 5: product page and October 2026 brief say January 2036, the news post of 17 Sep 2025 says January 2038.",
+  "Pi 500+ $410: taken from the research notes on the April 2026 product brief, not opened first-hand. Check before publishing.",
+  "CPI: $35 (2012) to about $51 (August 2026) is recalculated by build.py from BLS CPI-U values; the September 2026 value is due mid-October 2026.",
+  "Wayback snapshot links for the extension history were not re-checked (HTTP 429); spot-check before publishing.",
+  "Pi 1 Model B and CM4S launch dates rely on secondary sources; Compute Module 0 and SSD have no verified launch date.",
+  "Pi 3B+: product page January 2030 (confirmed first-hand 12 Oct 2026) vs. product brief and SBC guide January 2028."
+ ]
+}

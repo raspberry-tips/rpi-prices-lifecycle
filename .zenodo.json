@@ -1,0 +1,35 @@
+{
+  "upload_type": "dataset",
+  "title": "Raspberry Pi prices and lifecycle: official list prices and production guarantees 2012–2026",
+  "creators": [
+    {
+      "name": "Schweizer, Philipp",
+      "affiliation": "raspberry.tips",
+      "orcid": "0009-0009-1016-6649"
+    }
+  ],
+  "description": "<p>Official US list prices of every Raspberry Pi board, Compute Module and Pico since 2012, every announced price change (including the five memory-driven rounds between October 2025 and October 2026), and the production guarantees of 45 Raspberry Pi products. Every record links to its primary source (raspberrypi.com announcements, product briefs, obsolescence notices, archived product pages).</p><p><strong>Files.</strong> <code>data/prices.csv</code>, <code>data/lifecycle.csv</code>, <code>data/prices_lifecycle.json</code> (incl. events, guarantee history, EOL notices, source conflicts, CPI-U series).</p><p><strong>Scope.</strong> Official list prices in USD excluding tax; no retailer prices. Calculated values and assumptions are flagged in the <code>basis</code> field; conflicts between official sources are kept.</p><p>Data licensed CC BY 4.0, code MIT. Interactive version: <a href=\"https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-prices-lifecycle\">raspberry.tips</a>.</p>",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "Raspberry Pi",
+    "single-board computers",
+    "prices",
+    "product lifecycle",
+    "obsolescence",
+    "time series"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-prices-lifecycle",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://raspberry.tips/raspberrypi-infos/raspberry-pi-preisentwicklung-lebenszyklus",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-other"
+    }
+  ]
+}

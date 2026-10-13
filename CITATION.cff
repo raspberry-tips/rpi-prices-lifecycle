@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Raspberry Pi prices and lifecycle: official list prices and production guarantees 2012–2026"
+authors:
+  - family-names: Schweizer
+    given-names: Philipp
+    affiliation: raspberry.tips
+    orcid: "https://orcid.org/0009-0009-1016-6649"
+license: CC-BY-4.0
+repository-code: "https://github.com/raspberry-tips/rpi-prices-lifecycle"
+url: "https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-prices-lifecycle"
+date-released: 2026-10-13
+abstract: >-
+  Official US list prices of every Raspberry Pi board, Compute Module and Pico since 2012, all announced price
+  changes including the memory-driven rounds of 2025/26, and the production guarantees of 45 Raspberry Pi
+  products, each with its primary source on raspberrypi.com.
+keywords:
+  - Raspberry Pi
+  - single-board computers
+  - prices
+  - product lifecycle
+  - obsolescence
+  - time series
