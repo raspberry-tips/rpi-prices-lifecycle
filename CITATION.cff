@@ -11,7 +11,7 @@ license: CC-BY-4.0
 doi: 10.5281/zenodo.23336491
 repository-code: "https://github.com/raspberry-tips/rpi-prices-lifecycle"
 url: "https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-prices-lifecycle"
-date-released: 2026-10-13
+date-released: 2026-11-07
 abstract: >-
   Official US list prices of every Raspberry Pi board, Compute Module and Pico since 2012, all announced price
   changes including the memory-driven rounds of 2025/26, and the production guarantees of 45 Raspberry Pi

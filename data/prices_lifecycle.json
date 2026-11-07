@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Raspberry Pi Prices and Lifecycle: Every Model Since 2012",
-  "as_of": "2026-10-12",
+  "as_of": "2026-11-07",
   "generated_from": [
    "belege/01_listenpreise.json",
    "belege/02_lebenszyklus.json",
@@ -1504,7 +1504,7 @@
    "status": "active",
    "status_label": "In production",
    "eol": null,
-   "conflict": "The product page, the product brief (PDF of 22 Sep 2026), the SBC product guide and the longevity document say January 2036. The news post of 17 Sep 2025 says 'guaranteed minimum manufacturing end date of January 2038'. I list 2036 until Raspberry Pi clarifies.",
+   "conflict": "The product page, the product brief (November 2026), the SBC product guide and the longevity document say January 2036. The news post of 17 Sep 2025 says 'guaranteed minimum manufacturing end date of January 2038'. I list 2036 until Raspberry Pi clarifies.",
    "note": "All RAM sizes are in the range; 1GB was added on 1 Dec 2025.",
    "lifecycle_sources": [
     {
@@ -1525,9 +1525,9 @@
    "lifecycle_checked": "2026-10-12",
    "verified_primary": true,
    "current_source": {
-    "url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008348-DS-7-raspberry-pi-5-product-brief.pdf",
-    "date": "2026-10",
-    "label": "Product brief, published October 2026",
+    "url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008348-DS-10-raspberry-pi-5-product-brief.pdf",
+    "date": "2026-11",
+    "label": "Product brief, published November 2026",
     "belege_row": 65
    },
    "featured": 1,
@@ -1856,6 +1856,24 @@
      "belege_rows": [
       64
      ]
+    },
+    {
+     "date": "2026-11-02",
+     "variant": "16GB",
+     "usd": 385,
+     "delta_usd": 80,
+     "event": "increase",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/price-rises-for-some-16gb-raspberry-pi-products/",
+     "source_published": "2026-11-02T08:59:00+00:00",
+     "quote": "we are raising the price of the 16GB variant of Raspberry Pi 5 by $80, to $385",
+     "note": null,
+     "belege_rows": [
+      99
+     ]
     }
    ],
    "price_summary": {
@@ -1930,22 +1948,22 @@
       "sku": null,
       "launch_usd": 120,
       "launch_date": "2025-01-09",
-      "today_usd": 305,
-      "today_since": "2026-04-01",
+      "today_usd": 385,
+      "today_since": "2026-11-02",
       "today_since_event": "increase",
       "today_confirmed": true,
-      "last_usd": 305,
-      "last_date": "2026-04-01",
-      "change_pct": 154.2,
+      "last_usd": 385,
+      "last_date": "2026-11-02",
+      "change_pct": 220.8,
       "launch_usd_cpi": 124.86,
-      "real_change_pct": 144.3,
+      "real_change_pct": 208.3,
       "cpi_ref": "annual average 2025"
      }
     ],
     "launch_min": 60,
     "launch_max": 80,
     "today_min": 45,
-    "today_max": 305
+    "today_max": 385
    }
   },
   {
@@ -3776,7 +3794,7 @@
      "checked": "2026-10-12"
     },
     {
-     "url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-13-cm5-product-brief.pdf",
      "kind": "product brief",
      "quote": "Raspberry Pi Compute Module 5 will remain in production until at least January 2036",
      "date": null,
@@ -3786,9 +3804,9 @@
    "lifecycle_checked": "2026-10-12",
    "verified_primary": true,
    "current_source": {
-    "url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
-    "date": "2026-09",
-    "label": "Product brief, published September 2026",
+    "url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-13-cm5-product-brief.pdf",
+    "date": "2026-11",
+    "label": "Product brief, published November 2026",
     "belege_row": 92
    },
    "featured": 7,
@@ -4049,9 +4067,28 @@
      ]
     },
     {
-     "date": "2026-09",
+     "date": "2026-11",
      "variant": "16GB, 64GB eMMC, wireless",
      "sku": "CM5116064",
+     "usd": 415,
+     "delta_usd": null,
+     "event": "current_list",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-13-cm5-product-brief.pdf",
+     "source_published": null,
+     "quote": "Published November 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $375 … CM5116064 $415",
+     "note": "Product brief 'Published November 2026', excerpt of the list of order variants (SKUs).",
+     "belege_rows": [
+      92
+     ]
+    },
+    {
+     "date": "2026-11",
+     "variant": "16GB, Lite, no wireless",
+     "sku": "CM5016000",
      "usd": 375,
      "delta_usd": null,
      "event": "current_list",
@@ -4059,35 +4096,16 @@
      "basis_detail": "stated",
      "confirmed": true,
      "verified": true,
-     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-13-cm5-product-brief.pdf",
      "source_published": null,
-     "quote": "Published September 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $335 … CM5116064 $375",
-     "note": "Product brief 'Published September 2026', excerpt of the list of order variants (SKUs).",
+     "quote": "Published November 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $375 … CM5116064 $415",
+     "note": "Product brief 'Published November 2026', excerpt of the list of order variants (SKUs).",
      "belege_rows": [
       92
      ]
     },
     {
-     "date": "2026-09",
-     "variant": "16GB, Lite, no wireless",
-     "sku": "CM5016000",
-     "usd": 335,
-     "delta_usd": null,
-     "event": "current_list",
-     "basis": "stated",
-     "basis_detail": "stated",
-     "confirmed": true,
-     "verified": true,
-     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
-     "source_published": null,
-     "quote": "Published September 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $335 … CM5116064 $375",
-     "note": "Product brief 'Published September 2026', excerpt of the list of order variants (SKUs).",
-     "belege_rows": [
-      92
-     ]
-    },
-    {
-     "date": "2026-09",
+     "date": "2026-11",
      "variant": "2GB, Lite, no wireless",
      "sku": "CM5002000",
      "usd": 67.5,
@@ -4097,16 +4115,16 @@
      "basis_detail": "stated",
      "confirmed": true,
      "verified": true,
-     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-13-cm5-product-brief.pdf",
      "source_published": null,
-     "quote": "Published September 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $335 … CM5116064 $375",
-     "note": "Product brief 'Published September 2026', excerpt of the list of order variants (SKUs).",
+     "quote": "Published November 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $375 … CM5116064 $415",
+     "note": "Product brief 'Published November 2026', excerpt of the list of order variants (SKUs).",
      "belege_rows": [
       92
      ]
     },
     {
-     "date": "2026-09",
+     "date": "2026-11",
      "variant": "4GB, Lite, no wireless",
      "sku": "CM5004000",
      "usd": 100,
@@ -4116,16 +4134,16 @@
      "basis_detail": "stated",
      "confirmed": true,
      "verified": true,
-     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-13-cm5-product-brief.pdf",
      "source_published": null,
-     "quote": "Published September 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $335 … CM5116064 $375",
-     "note": "Product brief 'Published September 2026', excerpt of the list of order variants (SKUs).",
+     "quote": "Published November 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $375 … CM5116064 $415",
+     "note": "Product brief 'Published November 2026', excerpt of the list of order variants (SKUs).",
      "belege_rows": [
       92
      ]
     },
     {
-     "date": "2026-09",
+     "date": "2026-11",
      "variant": "8GB, Lite, no wireless",
      "sku": "CM5008000",
      "usd": 165,
@@ -4135,12 +4153,30 @@
      "basis_detail": "stated",
      "confirmed": true,
      "verified": true,
-     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-11-cm5-product-brief.pdf",
+     "source_url": "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008181-DS-13-cm5-product-brief.pdf",
      "source_published": null,
-     "quote": "Published September 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $335 … CM5116064 $375",
-     "note": "Product brief 'Published September 2026', excerpt of the list of order variants (SKUs).",
+     "quote": "Published November 2026 | CM5002000 $67.50 | CM5004000 $100 | CM5008000 $165 | CM5016000 $375 … CM5116064 $415",
+     "note": "Product brief 'Published November 2026', excerpt of the list of order variants (SKUs).",
      "belege_rows": [
       92
+     ]
+    },
+    {
+     "date": "2026-11-02",
+     "variant": "all 16GB variants",
+     "usd": null,
+     "delta_usd": 40,
+     "event": "increase",
+     "basis": "delta_only",
+     "basis_detail": "delta_only",
+     "confirmed": null,
+     "verified": true,
+     "source_url": "https://www.raspberrypi.com/news/price-rises-for-some-16gb-raspberry-pi-products/",
+     "source_published": "2026-11-02T08:59:00+00:00",
+     "quote": "The 16GB Raspberry Pi Compute Module 5 variants are increasing in price by $40",
+     "note": null,
+     "belege_rows": [
+      100
      ]
     }
    ],
@@ -4157,7 +4193,7 @@
       "today_since_event": "increase",
       "today_confirmed": true,
       "last_usd": 67.5,
-      "last_date": "2026-09",
+      "last_date": "2026-11",
       "change_pct": 50.0,
       "launch_usd_cpi": 48.05,
       "real_change_pct": 40.5,
@@ -4169,11 +4205,11 @@
       "launch_usd": null,
       "launch_date": null,
       "today_usd": 100,
-      "today_since": "2026-09",
+      "today_since": "2026-11",
       "today_since_event": "current_list",
       "today_confirmed": true,
       "last_usd": 100,
-      "last_date": "2026-09",
+      "last_date": "2026-11",
       "change_pct": null,
       "launch_usd_cpi": null,
       "real_change_pct": null
@@ -4184,11 +4220,11 @@
       "launch_usd": null,
       "launch_date": null,
       "today_usd": 165,
-      "today_since": "2026-09",
+      "today_since": "2026-11",
       "today_since_event": "current_list",
       "today_confirmed": true,
       "last_usd": 165,
-      "last_date": "2026-09",
+      "last_date": "2026-11",
       "change_pct": null,
       "launch_usd_cpi": null,
       "real_change_pct": null
@@ -4198,12 +4234,12 @@
       "sku": "CM5016000",
       "launch_usd": null,
       "launch_date": null,
-      "today_usd": 335,
-      "today_since": "2026-09",
+      "today_usd": 375,
+      "today_since": "2026-11",
       "today_since_event": "current_list",
       "today_confirmed": true,
-      "last_usd": 335,
-      "last_date": "2026-09",
+      "last_usd": 375,
+      "last_date": "2026-11",
       "change_pct": null,
       "launch_usd_cpi": null,
       "real_change_pct": null
@@ -4213,12 +4249,12 @@
       "sku": "CM5116064",
       "launch_usd": null,
       "launch_date": null,
-      "today_usd": 375,
-      "today_since": "2026-09",
+      "today_usd": 415,
+      "today_since": "2026-11",
       "today_since_event": "current_list",
       "today_confirmed": true,
-      "last_usd": 375,
-      "last_date": "2026-09",
+      "last_usd": 415,
+      "last_date": "2026-11",
       "change_pct": null,
       "launch_usd_cpi": null,
       "real_change_pct": null
@@ -4227,7 +4263,7 @@
     "launch_min": 45,
     "launch_max": 45,
     "today_min": 67.5,
-    "today_max": 375
+    "today_max": 415
    }
   },
   {
@@ -5319,6 +5355,17 @@
    "summary": "Pi 4 2GB to $67.50, Pi 5 2GB to $77.50. 1GB Pi 4 and Pi 5 boards and CM4/CM5 2GB unchanged.",
    "source_url": "https://www.raspberrypi.com/news/price-increases-for-2gb-raspberry-pi-4-and-raspberry-pi-5/",
    "timeline_anchor": null
+  },
+  {
+   "id": "2026-11-round-6",
+   "date": "2026-11-02",
+   "type": "increase",
+   "major": true,
+   "round": 6,
+   "title": "Round 6: 16GB models",
+   "summary": "Pi 5 16GB +$80 to $385, all 16GB Compute Module 5 variants +$40. Pi 500+ held at $410.",
+   "source_url": "https://www.raspberrypi.com/news/price-rises-for-some-16gb-raspberry-pi-products/",
+   "timeline_anchor": null
   }
  ],
  "extension_history": [
@@ -5711,7 +5758,7 @@
   {
    "product_id": "pi-5",
    "product": "Raspberry Pi 5",
-   "text": "The product page, the product brief (PDF of 22 Sep 2026), the SBC product guide and the longevity document say January 2036. The news post of 17 Sep 2025 says 'guaranteed minimum manufacturing end date of January 2038'. I list 2036 until Raspberry Pi clarifies."
+   "text": "The product page, the product brief (November 2026), the SBC product guide and the longevity document say January 2036. The news post of 17 Sep 2025 says 'guaranteed minimum manufacturing end date of January 2038'. I list 2036 until Raspberry Pi clarifies."
   },
   {
    "product_id": "cm3",
@@ -5732,7 +5779,7 @@
  "cpi": {
   "series": "CUUR0000SA0 (CPI-U, U.S. city average, all items, 1982-84=100, not seasonally adjusted)",
   "source_url": "https://data.bls.gov/timeseries/CUUR0000SA0",
-  "retrieved": "2026-10-12",
+  "retrieved": "2026-11-07",
   "annual_average": {
    "2012": 229.594,
    "2013": 232.957,
