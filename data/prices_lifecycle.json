@@ -113,7 +113,7 @@
       "last_usd": 35,
       "last_date": "2012-02-29",
       "change_pct": null,
-      "launch_usd_cpi": 51.07,
+      "launch_usd_cpi": 51.36,
       "real_change_pct": null,
       "cpi_ref": "annual average 2012"
      },
@@ -129,7 +129,7 @@
       "last_usd": 35,
       "last_date": "2012-10-15",
       "change_pct": null,
-      "launch_usd_cpi": 51.07,
+      "launch_usd_cpi": 51.36,
       "real_change_pct": null,
       "cpi_ref": "annual average 2012"
      }
@@ -216,7 +216,7 @@
       "last_usd": 25,
       "last_date": "2013-02-04",
       "change_pct": null,
-      "launch_usd_cpi": 35.95,
+      "launch_usd_cpi": 36.16,
       "real_change_pct": null,
       "cpi_ref": "annual average 2013"
      }
@@ -318,8 +318,8 @@
       "last_usd": 25,
       "last_date": "2015-05-14",
       "change_pct": -28.6,
-      "launch_usd_cpi": 49.52,
-      "real_change_pct": -49.5,
+      "launch_usd_cpi": 49.81,
+      "real_change_pct": -49.8,
       "cpi_ref": "annual average 2014"
      }
     ],
@@ -395,8 +395,8 @@
       "last_usd": 20,
       "last_date": "2014-11-10",
       "change_pct": 0.0,
-      "launch_usd_cpi": 28.3,
-      "real_change_pct": -29.3,
+      "launch_usd_cpi": 28.47,
+      "real_change_pct": -29.8,
       "cpi_ref": "annual average 2014"
      }
     ],
@@ -487,7 +487,7 @@
       "last_usd": 35,
       "last_date": "2015-02-02",
       "change_pct": null,
-      "launch_usd_cpi": 49.47,
+      "launch_usd_cpi": 49.76,
       "real_change_pct": null,
       "cpi_ref": "annual average 2015"
      }
@@ -513,7 +513,7 @@
    "status": "active_no_date",
    "status_label": "In production, no end date published",
    "eol": null,
-   "conflict": null,
+   "conflict": "The product page gives no 'until at least' date. The longevity document (March 2025) lists 'Raspberry Pi 2B' as '2030* (earliest last-time buy)' without naming a revision. Since the October 2025 notice ended Rev. 1.1 and 1.2, it is unclear whether 2030 applies to Rev. 1.3, so I leave the date open.",
    "note": "The product page recommends Rev. 1.3 but gives no 'until at least' date (until 10/2023 it said January 2026, Wayback copy). The longevity document lists Pi 2B as '2030* (earliest last-time buy)'.",
    "lifecycle_sources": [
     {
@@ -605,8 +605,8 @@
       "last_usd": 35,
       "last_date": "2016-02-29",
       "change_pct": 0.0,
-      "launch_usd_cpi": 48.85,
-      "real_change_pct": -28.4,
+      "launch_usd_cpi": 49.14,
+      "real_change_pct": -28.8,
       "cpi_ref": "annual average 2016"
      }
     ],
@@ -711,8 +711,8 @@
       "last_usd": 40,
       "last_date": "2025-10-01",
       "change_pct": 14.3,
-      "launch_usd_cpi": 46.69,
-      "real_change_pct": -14.3,
+      "launch_usd_cpi": 46.96,
+      "real_change_pct": -14.8,
       "cpi_ref": "annual average 2018"
      }
     ],
@@ -795,8 +795,8 @@
       "last_usd": 25,
       "last_date": "2018-11-15",
       "change_pct": 0.0,
-      "launch_usd_cpi": 33.35,
-      "real_change_pct": -25.0,
+      "launch_usd_cpi": 33.55,
+      "real_change_pct": -25.5,
       "cpi_ref": "annual average 2018"
      }
     ],
@@ -1190,8 +1190,8 @@
       "last_usd": 35,
       "last_date": "2026-02-02",
       "change_pct": 0.0,
-      "launch_usd_cpi": 45.86,
-      "real_change_pct": -23.7,
+      "launch_usd_cpi": 46.13,
+      "real_change_pct": -24.1,
       "cpi_ref": "annual average 2019"
      },
      {
@@ -1206,8 +1206,8 @@
       "last_usd": 67.5,
       "last_date": "2026-10-01",
       "change_pct": 50.0,
-      "launch_usd_cpi": 58.96,
-      "real_change_pct": 14.5,
+      "launch_usd_cpi": 59.31,
+      "real_change_pct": 13.8,
       "cpi_ref": "annual average 2019"
      },
      {
@@ -1222,8 +1222,8 @@
       "last_usd": 83.75,
       "last_date": "2026-04-01",
       "change_pct": 0.0,
-      "launch_usd_cpi": 84.24,
-      "real_change_pct": -0.6,
+      "launch_usd_cpi": 84.74,
+      "real_change_pct": -1.2,
       "cpi_ref": "2026-04"
      },
      {
@@ -1238,8 +1238,8 @@
       "last_usd": 100,
       "last_date": "2026-04-01",
       "change_pct": 81.8,
-      "launch_usd_cpi": 72.06,
-      "real_change_pct": 38.8,
+      "launch_usd_cpi": 72.49,
+      "real_change_pct": 38.0,
       "cpi_ref": "annual average 2019"
      },
      {
@@ -1254,8 +1254,8 @@
       "last_usd": 165,
       "last_date": "2026-04-01",
       "change_pct": 120.0,
-      "launch_usd_cpi": 97.07,
-      "real_change_pct": 70.0,
+      "launch_usd_cpi": 97.64,
+      "real_change_pct": 69.0,
       "cpi_ref": "annual average 2020"
      }
     ],
@@ -1462,8 +1462,8 @@
       "last_usd": 60,
       "last_date": "2026-04-01",
       "change_pct": -14.3,
-      "launch_usd_cpi": 90.6,
-      "real_change_pct": -33.8,
+      "launch_usd_cpi": 91.13,
+      "real_change_pct": -34.2,
       "cpi_ref": "annual average 2020"
      },
      {
@@ -1478,8 +1478,8 @@
       "last_usd": 80,
       "last_date": "2026-04-01",
       "change_pct": -20.0,
-      "launch_usd_cpi": 129.43,
-      "real_change_pct": -38.2,
+      "launch_usd_cpi": 130.19,
+      "real_change_pct": -38.6,
       "cpi_ref": "annual average 2020"
      }
     ],
@@ -1516,7 +1516,7 @@
     },
     {
      "url": "https://www.raspberrypi.com/news/raspberry-pis-commitment-to-longevity-a-sustainable-advantage/",
-     "kind": "longevity document",
+     "kind": "news post",
      "quote": "it has a guaranteed minimum manufacturing end date of January 2038",
      "date": "2025-09-17",
      "checked": "2026-10-12"
@@ -1891,8 +1891,8 @@
       "last_usd": 45,
       "last_date": "2026-02-02",
       "change_pct": 0.0,
-      "launch_usd_cpi": 46.82,
-      "real_change_pct": -3.9,
+      "launch_usd_cpi": 47.1,
+      "real_change_pct": -4.5,
       "cpi_ref": "annual average 2025"
      },
      {
@@ -1907,8 +1907,8 @@
       "last_usd": 77.5,
       "last_date": "2026-10-01",
       "change_pct": 55.0,
-      "launch_usd_cpi": 53.39,
-      "real_change_pct": 45.2,
+      "launch_usd_cpi": 53.71,
+      "real_change_pct": 44.3,
       "cpi_ref": "annual average 2024"
      },
      {
@@ -1923,8 +1923,8 @@
       "last_usd": 110,
       "last_date": "2026-04-01",
       "change_pct": 83.3,
-      "launch_usd_cpi": 65.96,
-      "real_change_pct": 66.8,
+      "launch_usd_cpi": 66.35,
+      "real_change_pct": 65.8,
       "cpi_ref": "annual average 2023"
      },
      {
@@ -1939,8 +1939,8 @@
       "last_usd": 175,
       "last_date": "2026-04-01",
       "change_pct": 118.8,
-      "launch_usd_cpi": 87.95,
-      "real_change_pct": 99.0,
+      "launch_usd_cpi": 88.46,
+      "real_change_pct": 97.8,
       "cpi_ref": "annual average 2023"
      },
      {
@@ -1955,8 +1955,8 @@
       "last_usd": 385,
       "last_date": "2026-11-02",
       "change_pct": 220.8,
-      "launch_usd_cpi": 124.86,
-      "real_change_pct": 208.3,
+      "launch_usd_cpi": 125.59,
+      "real_change_pct": 206.6,
       "cpi_ref": "annual average 2025"
      }
     ],
@@ -2165,8 +2165,8 @@
       "last_usd": 180,
       "last_date": "2026-04-01",
       "change_pct": 100.0,
-      "launch_usd_cpi": 96.11,
-      "real_change_pct": 87.3,
+      "launch_usd_cpi": 96.67,
+      "real_change_pct": 86.2,
       "cpi_ref": "annual average 2024"
      },
      {
@@ -2181,8 +2181,8 @@
       "last_usd": 200,
       "last_date": "2026-04-01",
       "change_pct": 66.7,
-      "launch_usd_cpi": 128.14,
-      "real_change_pct": 56.1,
+      "launch_usd_cpi": 128.89,
+      "real_change_pct": 55.2,
       "cpi_ref": "annual average 2024"
      }
     ],
@@ -2389,8 +2389,8 @@
       "last_usd": 410,
       "last_date": "2026-04-01",
       "change_pct": 105.0,
-      "launch_usd_cpi": 208.1,
-      "real_change_pct": 97.0,
+      "launch_usd_cpi": 209.32,
+      "real_change_pct": 95.9,
       "cpi_ref": "annual average 2025"
      },
      {
@@ -2405,8 +2405,8 @@
       "last_usd": 430,
       "last_date": "2026-04-01",
       "change_pct": 95.5,
-      "launch_usd_cpi": 228.91,
-      "real_change_pct": 87.8,
+      "launch_usd_cpi": 230.25,
+      "real_change_pct": 86.8,
       "cpi_ref": "annual average 2025"
      }
     ],
@@ -2500,8 +2500,8 @@
       "last_usd": 10,
       "last_date": "2022-12-12",
       "change_pct": 100.0,
-      "launch_usd_cpi": 7.07,
-      "real_change_pct": 41.4,
+      "launch_usd_cpi": 7.11,
+      "real_change_pct": 40.6,
       "cpi_ref": "annual average 2015"
      }
     ],
@@ -2595,8 +2595,8 @@
       "last_usd": 15,
       "last_date": "2022-12-12",
       "change_pct": 50.0,
-      "launch_usd_cpi": 13.67,
-      "real_change_pct": 9.7,
+      "launch_usd_cpi": 13.75,
+      "real_change_pct": 9.1,
       "cpi_ref": "annual average 2017"
      }
     ],
@@ -2679,8 +2679,8 @@
       "last_usd": 15,
       "last_date": "2021-10-28",
       "change_pct": 0.0,
-      "launch_usd_cpi": 18.54,
-      "real_change_pct": -19.1,
+      "launch_usd_cpi": 18.65,
+      "real_change_pct": -19.6,
       "cpi_ref": "annual average 2021"
      }
     ],
@@ -2778,7 +2778,7 @@
      "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
      "source_published": "2025-10-01T05:58:22+00:00",
      "quote": "reducing the price of Compute Module 1 by $5 to $25",
-     "note": "The October 2025 post says 'reducing the price of Compute Module 1 by $5 to $25', which is inconsistent with the 2017 cut to $25. Recorded here as no price change.",
+     "note": "The October 2025 post says 'reducing the price of Compute Module 1 by $5 to $25', which is inconsistent with the 2017 cut to $25. No increase in between is documented: in October 2021 Raspberry Pi held all prices except one, and in December 2022 it named only Pi 4 2GB and Compute Module 4 as exceptions. Recorded here as no price change.",
      "belege_rows": [
       68
      ]
@@ -2799,8 +2799,8 @@
       "last_usd": 25,
       "last_date": "2025-10-01",
       "change_pct": -16.7,
-      "launch_usd_cpi": 42.45,
-      "real_change_pct": -41.1,
+      "launch_usd_cpi": 42.7,
+      "real_change_pct": -41.5,
       "cpi_ref": "annual average 2014"
      }
     ],
@@ -2909,7 +2909,7 @@
       "last_usd": 30,
       "last_date": "2017-01-16",
       "change_pct": null,
-      "launch_usd_cpi": 41.0,
+      "launch_usd_cpi": 41.24,
       "real_change_pct": null,
       "cpi_ref": "annual average 2017"
      },
@@ -2925,7 +2925,7 @@
       "last_usd": 25,
       "last_date": "2017-01-16",
       "change_pct": null,
-      "launch_usd_cpi": 34.16,
+      "launch_usd_cpi": 34.36,
       "real_change_pct": null,
       "cpi_ref": "annual average 2017"
      }
@@ -3063,8 +3063,8 @@
       "last_usd": 25,
       "last_date": "2019-01-28",
       "change_pct": 0.0,
-      "launch_usd_cpi": 32.76,
-      "real_change_pct": -23.7,
+      "launch_usd_cpi": 32.95,
+      "real_change_pct": -24.1,
       "cpi_ref": "annual average 2019"
      },
      {
@@ -3079,8 +3079,8 @@
       "last_usd": 30,
       "last_date": "2019-01-28",
       "change_pct": 0.0,
-      "launch_usd_cpi": 39.31,
-      "real_change_pct": -23.7,
+      "launch_usd_cpi": 39.54,
+      "real_change_pct": -24.1,
       "cpi_ref": "annual average 2019"
      },
      {
@@ -3095,8 +3095,8 @@
       "last_usd": 35,
       "last_date": "2019-01-28",
       "change_pct": 0.0,
-      "launch_usd_cpi": 45.86,
-      "real_change_pct": -23.7,
+      "launch_usd_cpi": 46.13,
+      "real_change_pct": -24.1,
       "cpi_ref": "annual average 2019"
      },
      {
@@ -3111,8 +3111,8 @@
       "last_usd": 40,
       "last_date": "2019-01-28",
       "change_pct": 0.0,
-      "launch_usd_cpi": 52.41,
-      "real_change_pct": -23.7,
+      "launch_usd_cpi": 52.72,
+      "real_change_pct": -24.1,
       "cpi_ref": "annual average 2019"
      }
     ],
@@ -3215,7 +3215,7 @@
      "source_url": "https://www.raspberrypi.com/news/supply-chain-update-its-good-news/",
      "source_published": null,
      "quote": null,
-     "note": "Launch price $25 plus the across-the-board $5 increase. The effective date is unknown; the step is placed at the date of the post that mentions it (12 Dec 2022).",
+     "note": "Launch price $25 plus the across-the-board $5 increase. The effective date is unknown (between 20 Oct 2021 and 12 Dec 2022); the step is placed at the date of the post that mentions it (12 Dec 2022).",
      "belege_rows": [
       72,
       73
@@ -3234,7 +3234,7 @@
      "source_url": "https://www.raspberrypi.com/news/supply-chain-update-its-good-news/",
      "source_published": "2022-12-12T09:48:36+00:00",
      "quote": "Compute Module 4, where we applied an across-the-board $5 price increase to all variants.",
-     "note": "Effective date unknown (some time before 12 Dec 2022); the post mentions it retrospectively.",
+     "note": "Effective date unknown: after 20 Oct 2021, when Raspberry Pi had raised the price of only one product, and before 12 Dec 2022, when this post mentions the increase retrospectively.",
      "belege_rows": [
       73
      ]
@@ -3567,8 +3567,8 @@
       "last_usd": 41.25,
       "last_date": "2026-07",
       "change_pct": 65.0,
-      "launch_usd_cpi": 32.36,
-      "real_change_pct": 27.5,
+      "launch_usd_cpi": 32.55,
+      "real_change_pct": 26.7,
       "cpi_ref": "annual average 2020"
      },
      {
@@ -3628,7 +3628,7 @@
       "last_usd": 90,
       "last_date": "2020-10-19",
       "change_pct": null,
-      "launch_usd_cpi": 116.49,
+      "launch_usd_cpi": 117.17,
       "real_change_pct": null,
       "cpi_ref": "annual average 2020"
      },
@@ -4195,8 +4195,8 @@
       "last_usd": 67.5,
       "last_date": "2026-11",
       "change_pct": 50.0,
-      "launch_usd_cpi": 48.05,
-      "real_change_pct": 40.5,
+      "launch_usd_cpi": 48.34,
+      "real_change_pct": 39.6,
       "cpi_ref": "annual average 2024"
      },
      {
@@ -4391,8 +4391,8 @@
       "last_usd": 4,
       "last_date": "2021-01-21",
       "change_pct": 0.0,
-      "launch_usd_cpi": 4.94,
-      "real_change_pct": -19.0,
+      "launch_usd_cpi": 4.97,
+      "real_change_pct": -19.5,
       "cpi_ref": "annual average 2021"
      },
      {
@@ -4407,8 +4407,8 @@
       "last_usd": 5,
       "last_date": "2022-06-30",
       "change_pct": 0.0,
-      "launch_usd_cpi": 5.72,
-      "real_change_pct": -12.6,
+      "launch_usd_cpi": 5.76,
+      "real_change_pct": -13.2,
       "cpi_ref": "annual average 2022"
      }
     ],
@@ -4509,8 +4509,8 @@
       "last_usd": 6,
       "last_date": "2022-06-30",
       "change_pct": 0.0,
-      "launch_usd_cpi": 6.87,
-      "real_change_pct": -12.7,
+      "launch_usd_cpi": 6.91,
+      "real_change_pct": -13.2,
       "cpi_ref": "annual average 2022"
      },
      {
@@ -4525,8 +4525,8 @@
       "last_usd": 7,
       "last_date": "2022-06-30",
       "change_pct": 0.0,
-      "launch_usd_cpi": 8.01,
-      "real_change_pct": -12.6,
+      "launch_usd_cpi": 8.06,
+      "real_change_pct": -13.2,
       "cpi_ref": "annual average 2022"
      }
     ],
@@ -4609,8 +4609,8 @@
       "last_usd": 5,
       "last_date": "2024-08-08",
       "change_pct": 0.0,
-      "launch_usd_cpi": 5.34,
-      "real_change_pct": -6.4,
+      "launch_usd_cpi": 5.37,
+      "real_change_pct": -6.9,
       "cpi_ref": "annual average 2024"
      }
     ],
@@ -4686,8 +4686,8 @@
       "last_usd": 7,
       "last_date": "2024-11-25",
       "change_pct": 0.0,
-      "launch_usd_cpi": 7.48,
-      "real_change_pct": -6.4,
+      "launch_usd_cpi": 7.52,
+      "real_change_pct": -6.9,
       "cpi_ref": "annual average 2024"
      }
     ],
@@ -5308,7 +5308,7 @@
    "major": true,
    "round": 1,
    "title": "Round 1: $5 to $10 on some 4GB and 8GB products",
-   "summary": "Compute Modules CM4 and CM5: 4GB +$5 and 8GB +$10; Pi 500 +$10; Pi 3B+ +$5 (costs not related to memory). Pi 4 and Pi 5 boards unchanged.",
+   "summary": "Compute Modules CM4 and CM5: 4GB +$5 and 8GB +$10; Pi 500 +$10; Pi 3B+ +$5 (costs not related to memory). Pi 4 and Pi 5 boards unchanged. The post also mentions a $5 cut to $25 for the Compute Module 1, but the CM1 has cost $25 since 2017, so the price table records no change.",
    "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
    "timeline_anchor": null
   },
@@ -5746,6 +5746,11 @@
  ],
  "conflicts": [
   {
+   "product_id": "pi-2-model-b-rev-1-3",
+   "product": "Raspberry Pi 2 Model B (Rev. 1.3, BCM2837B0)",
+   "text": "The product page gives no 'until at least' date. The longevity document (March 2025) lists 'Raspberry Pi 2B' as '2030* (earliest last-time buy)' without naming a revision. Since the October 2025 notice ended Rev. 1.1 and 1.2, it is unclear whether 2030 applies to Rev. 1.3, so I leave the date open."
+  },
+  {
    "product_id": "pi-3-model-b",
    "product": "Raspberry Pi 3 Model B",
    "text": "The longevity document lists Pi 3B as '2030* (earliest last-time buy)'; the product page says January 2028. I use the product page."
@@ -5804,12 +5809,13 @@
    "2026-05": 335.123,
    "2026-06": 333.952,
    "2026-07": 333.918,
-   "2026-08": 334.98
+   "2026-08": 334.98,
+   "2026-09": 336.94
   },
-  "latest_month": "2026-08",
-  "latest_value": 334.98,
+  "latest_month": "2026-09",
+  "latest_value": 336.94,
   "method": "Launch price x CPI(latest month) / CPI(annual average of the launch year; for 2026 launches the launch month).",
-  "check_usd35_2012_to_latest": 51.07,
+  "check_usd35_2012_to_latest": 51.36,
   "crosscheck_2020": {
    "calculated_2012_to_2020": 39.45,
    "official_quote": "thanks to inflation, $35 in 2012 is equivalent to nearly $40 today.",
@@ -5820,15 +5826,15 @@
   "Pi 500 / 500+ in February 2026: the post only says they 'are affected'. $130/$150 and $260/$280 are taken from the memory-density table (basis 'assumption'). The April 2026 end values are confirmed by product briefs.",
   "Intermediate February 2026 values (Pi 4 4GB $75, 8GB $115; Pi 5 4GB $85, 8GB $125, 16GB $205) are calculated from stated increases; the chain is closed by the April 2026 product briefs.",
   "Compute Module 4/5 historical variant prices are not published any more: older product-brief versions redirect to the current one. Only launch ranges, all increases and the current SKU lists are documented. Full histories exist only for CM4 1GB Lite and CM5 2GB Lite (forward-calculated, confirmed by the current briefs).",
-  "Compute Module 4 +$5 across-the-board increase: effective date unknown (before 12 Dec 2022); placed at 12 Dec 2022 as an assumption.",
-  "Compute Module 1: cut to $25 in 2017, then 'reduced by $5 to $25' in October 2025. An increase back to $30 in between is not documented; the October 2025 record is kept as 'no price change'.",
+  "Compute Module 4 +$5 across-the-board increase: effective date unknown (after 20 Oct 2021, before 12 Dec 2022); placed at 12 Dec 2022 as an assumption.",
+  "Compute Module 1: cut to $25 in 2017, then 'reduced by $5 to $25' in October 2025. An increase back to $30 in between is not documented (the posts of 20 Oct 2021 and 12 Dec 2022 name the only increases up to then, and CM1 is not among them); the October 2025 record is kept as 'no price change'.",
   "Compute Module 5 16GB: launch date and launch price not found.",
   "Compute Module 4S: only increases (deltas) are documented, no absolute list price; launch date only from secondary sources.",
   "Not captured: Zero WH, Zero 2 WH, Pico 2 H/WH, Model A+ 512MB revision.",
   "Current prices of Zero, Zero W, Zero 2 W, Pi 3B, Pi 3A+, Pi 1 B+/A+, CM3+ and the Picos are the last officially stated prices. The 2025/26 posts say older products were not affected, but the product pages could not be checked (Cloudflare) and the Zero 2 W brief has no price.",
   "Pi 5: product page and October 2026 brief say January 2036, the news post of 17 Sep 2025 says January 2038.",
   "Pi 500+ $410: taken from the research notes on the April 2026 product brief, not opened first-hand. Check before publishing.",
-  "CPI: $35 (2012) to about $51 (August 2026) is recalculated by build.py from BLS CPI-U values; the September 2026 value is due mid-October 2026.",
+  "CPI: $35 (2012) to about $51 (September 2026) is recalculated by build.py from BLS CPI-U values; the October 2026 value is due mid-November 2026.",
   "Wayback snapshot links for the extension history were not re-checked (HTTP 429); spot-check before publishing.",
   "Pi 1 Model B and CM4S launch dates rely on secondary sources; Compute Module 0 and SSD have no verified launch date.",
   "Pi 3B+: product page January 2030 (confirmed first-hand 12 Oct 2026) vs. product brief and SBC guide January 2028."
