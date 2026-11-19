@@ -5266,8 +5266,8 @@
    "date": "2020-02-27",
    "type": "cut",
    "major": true,
-   "title": "Pi 4 2GB cut to $35",
-   "summary": "Falling RAM prices: the 2GB Pi 4 drops from $45 to $35; the 1GB model stays available to industrial customers only.",
+   "title": "Pi 4 2GB price cut to $35",
+   "summary": "Memory has become cheaper, so the 2GB Pi 4 drops from $45 to $35. From then on, the 1GB model is sold to industrial customers only.",
    "source_url": "https://www.raspberrypi.com/news/new-price-raspberry-pi-4-2gb/",
    "timeline_anchor": null
   },
@@ -5277,7 +5277,7 @@
    "type": "increase",
    "major": false,
    "title": "First-ever price increase",
-   "summary": "Supply-chain shortages: the 2GB Pi 4 goes back to $45 'on a temporary basis', the 1GB returns at $35.",
+   "summary": "Citing supply-chain shortages, Raspberry Pi raises the 2GB Pi 4 back to $45 “on a temporary basis” and brings back the 1GB model at $35.",
    "source_url": "https://www.raspberrypi.com/news/supply-chain-shortages-and-our-first-ever-price-increase/",
    "timeline_anchor": null
   },
