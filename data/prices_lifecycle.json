@@ -513,7 +513,7 @@
    "status": "active_no_date",
    "status_label": "In production, no end date published",
    "eol": null,
-   "conflict": "The product page gives no 'until at least' date. The longevity document (March 2025) lists 'Raspberry Pi 2B' as '2030* (earliest last-time buy)' without naming a revision. Since the October 2025 notice ended Rev. 1.1 and 1.2, it is unclear whether 2030 applies to Rev. 1.3, so I leave the date open.",
+   "conflict": "The product page gives no 'until at least' date. The longevity document (March 2025) lists 'Raspberry Pi 2B' as '2030* (earliest last-time buy)' without naming a revision. Because the October 2025 notice retired Rev. 1.1 and 1.2, it is unclear whether 2030 applies to Rev. 1.3, so I leave the date open.",
    "note": "The product page recommends Rev. 1.3 but gives no 'until at least' date (until 10/2023 it said January 2026, Wayback copy). The longevity document lists Pi 2B as '2030* (earliest last-time buy)'.",
    "lifecycle_sources": [
     {
@@ -2778,7 +2778,7 @@
      "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
      "source_published": "2025-10-01T05:58:22+00:00",
      "quote": "reducing the price of Compute Module 1 by $5 to $25",
-     "note": "The October 2025 post says 'reducing the price of Compute Module 1 by $5 to $25', which is inconsistent with the 2017 cut to $25. No increase in between is documented: in October 2021 Raspberry Pi held all prices except one, and in December 2022 it named only Pi 4 2GB and Compute Module 4 as exceptions. Recorded here as no price change.",
+     "note": "The October 2025 post says 'reducing the price of Compute Module 1 by $5 to $25', which is inconsistent with the 2017 cut to $25. No increase in between is documented: in October 2021 Raspberry Pi had raised only one price, and in December 2022 it named only the 2GB Pi 4 and the Compute Module 4 as exceptions to its otherwise unchanged prices. Recorded here as no price change.",
      "belege_rows": [
       68
      ]
@@ -3215,7 +3215,7 @@
      "source_url": "https://www.raspberrypi.com/news/supply-chain-update-its-good-news/",
      "source_published": null,
      "quote": null,
-     "note": "Launch price $25 plus the across-the-board $5 increase. The effective date is unknown (between 20 Oct 2021 and 12 Dec 2022); the step is placed at the date of the post that mentions it (12 Dec 2022).",
+     "note": "Launch price $25 plus the across-the-board $5 increase. The effective date is unknown (between 20 Oct 2021 and 12 Dec 2022); the step is shown on the date of the post that mentions it (12 Dec 2022).",
      "belege_rows": [
       72,
       73
@@ -3234,7 +3234,7 @@
      "source_url": "https://www.raspberrypi.com/news/supply-chain-update-its-good-news/",
      "source_published": "2022-12-12T09:48:36+00:00",
      "quote": "Compute Module 4, where we applied an across-the-board $5 price increase to all variants.",
-     "note": "Effective date unknown: after 20 Oct 2021, when Raspberry Pi had raised the price of only one product, and before 12 Dec 2022, when this post mentions the increase retrospectively.",
+     "note": "Effective date unknown: after 20 Oct 2021, when Raspberry Pi had raised the price of only one product, and before 12 Dec 2022, when this post mentions the increase after the fact.",
      "belege_rows": [
       73
      ]
@@ -5307,8 +5307,8 @@
    "type": "increase",
    "major": true,
    "round": 1,
-   "title": "Round 1: $5 to $10 on some 4GB and 8GB products",
-   "summary": "Compute Modules CM4 and CM5: 4GB +$5 and 8GB +$10; Pi 500 +$10; Pi 3B+ +$5 (costs not related to memory). Pi 4 and Pi 5 boards unchanged. The post also mentions a $5 cut to $25 for the Compute Module 1, but the CM1 has cost $25 since 2017, so the price table records no change.",
+   "title": "Round 1: $5 to $10 more on some 4GB and 8GB products",
+   "summary": "Compute Modules CM4 and CM5: 4GB +$5 and 8GB +$10; Pi 500 +$10; Pi 3B+ +$5 (for reasons unrelated to memory costs). Pi 4 and Pi 5 boards unchanged. The post also mentions a $5 cut to $25 for the Compute Module 1, but the CM1 has cost $25 since 2017, so the price table records no change.",
    "source_url": "https://www.raspberrypi.com/news/5-10-price-increases-for-some-4gb-and-8gb-products/",
    "timeline_anchor": null
   },
@@ -5748,7 +5748,7 @@
   {
    "product_id": "pi-2-model-b-rev-1-3",
    "product": "Raspberry Pi 2 Model B (Rev. 1.3, BCM2837B0)",
-   "text": "The product page gives no 'until at least' date. The longevity document (March 2025) lists 'Raspberry Pi 2B' as '2030* (earliest last-time buy)' without naming a revision. Since the October 2025 notice ended Rev. 1.1 and 1.2, it is unclear whether 2030 applies to Rev. 1.3, so I leave the date open."
+   "text": "The product page gives no 'until at least' date. The longevity document (March 2025) lists 'Raspberry Pi 2B' as '2030* (earliest last-time buy)' without naming a revision. Because the October 2025 notice retired Rev. 1.1 and 1.2, it is unclear whether 2030 applies to Rev. 1.3, so I leave the date open."
   },
   {
    "product_id": "pi-3-model-b",
