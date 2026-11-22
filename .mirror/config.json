@@ -1,0 +1,207 @@
+{
+  "github": "https://github.com/raspberry-tips/rpi-prices-lifecycle",
+  "hf_repo": "raspberry-tips/raspberry-pi-prices-and-lifecycle",
+  "kaggle_id": "philippschweizer/raspberry-pi-prices-and-lifecycle",
+  "title": "Raspberry Pi Prices and Lifecycle 2012-2026",
+  "subtitle": "Official USD list prices since 2012 and lifecycle dates of 45 products",
+  "files": [
+    "data/prices.csv",
+    "data/lifecycle.csv",
+    "data/prices_lifecycle.json"
+  ],
+  "size_category": "n<1K",
+  "keywords": [
+    "raspberry-pi",
+    "hardware",
+    "price-history",
+    "product-lifecycle",
+    "end-of-life",
+    "open-data"
+  ],
+  "kaggle_keywords": [
+    "computer science",
+    "electronics",
+    "economics",
+    "retail and shopping"
+  ],
+  "update_frequency": "quarterly",
+  "sources": "Raspberry Pi Ltd only: news posts on raspberrypi.com (dated by article:published_time), product pages, product briefs and obsolescence notices on pip.raspberrypi.com, archived official product pages (Internet Archive). Inflation: US CPI-U, BLS series CUUR0000SA0. Every row links its own source. Method: https://github.com/raspberry-tips/rpi-prices-lifecycle",
+  "hf_configs": [
+    {
+      "config_name": "prices",
+      "data_files": "prices.csv",
+      "default": true
+    },
+    {
+      "config_name": "lifecycle",
+      "data_files": "lifecycle.csv"
+    }
+  ],
+  "resources": [
+    {
+      "path": "prices.csv",
+      "description": "Official US list prices (USD, excluding tax and shipping): one row per product, date and memory variant, covering launches, increases, cuts and current list prices since 2012.",
+      "schema": {
+        "fields": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "description": "Stable product key, matches lifecycle.csv."
+          },
+          {
+            "name": "product",
+            "type": "string",
+            "description": "Product name as used by Raspberry Pi."
+          },
+          {
+            "name": "family",
+            "type": "string",
+            "description": "Product family: boards, zero, compute (Compute Modules) or pico."
+          },
+          {
+            "name": "date",
+            "type": "datetime",
+            "description": "Date the price took effect or was announced (YYYY-MM-DD)."
+          },
+          {
+            "name": "variant",
+            "type": "string",
+            "description": "Memory/storage variant, e.g. 4GB or 8GB/32GB eMMC; empty if the product has only one."
+          },
+          {
+            "name": "sku",
+            "type": "string",
+            "description": "Raspberry Pi SKU where the source names one."
+          },
+          {
+            "name": "usd",
+            "type": "numeric",
+            "description": "List price in USD after this event; empty for change-only rows (basis delta_only)."
+          },
+          {
+            "name": "delta_usd",
+            "type": "numeric",
+            "description": "Price change in USD against the previous price of this variant (negative = cut)."
+          },
+          {
+            "name": "event",
+            "type": "string",
+            "description": "launch, increase, cut, current_list (price confirmed by a current product page or brief), unchanged, announcement, revision or variant_withdrawn."
+          },
+          {
+            "name": "basis",
+            "type": "string",
+            "description": "How the price was obtained: stated (verbatim in the source), calculated (previous price plus a stated increase), assumption (increase not stated for this product), approximate, or delta_only (only the change is documented)."
+          },
+          {
+            "name": "basis_detail",
+            "type": "string",
+            "description": "Finer version of basis, e.g. derived_confirmed when a calculated price later appears verbatim in another source."
+          },
+          {
+            "name": "confirmed",
+            "type": "boolean",
+            "description": "For calculated prices: true if the result also appears verbatim in a later source. Empty where not applicable."
+          },
+          {
+            "name": "verified",
+            "type": "boolean",
+            "description": "false marks rows whose value is not directly backed by the cited source (assumptions or inconsistent statements); the note explains why."
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "description": "Primary source on raspberrypi.com or pip.raspberrypi.com."
+          },
+          {
+            "name": "source_published",
+            "type": "datetime",
+            "description": "Publication time of the source (article:published_time) where available."
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Explanation, e.g. for assumptions and conflicts between official sources."
+          }
+        ]
+      }
+    },
+    {
+      "path": "lifecycle.csv",
+      "description": "Production guarantees and end-of-life data for 45 Raspberry Pi products, one row per product.",
+      "schema": {
+        "fields": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "description": "Stable product key, matches prices.csv."
+          },
+          {
+            "name": "product",
+            "type": "string",
+            "description": "Product name."
+          },
+          {
+            "name": "family",
+            "type": "string",
+            "description": "boards, zero, compute, pico or accessories."
+          },
+          {
+            "name": "launch_date",
+            "type": "datetime",
+            "description": "Launch or sales start (YYYY-MM-DD)."
+          },
+          {
+            "name": "production_until",
+            "type": "string",
+            "description": "Month of the official 'will remain in production until at least' statement (YYYY-MM). A minimum, not an end date."
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "active, active_no_date (no end date published), guarantee_passed, end_of_life (formal notice), not_offered or discontinued."
+          },
+          {
+            "name": "eol_date",
+            "type": "datetime",
+            "description": "End-of-life date from an official obsolescence notice."
+          },
+          {
+            "name": "last_time_buy",
+            "type": "datetime",
+            "description": "Last-time-buy date from the obsolescence notice."
+          },
+          {
+            "name": "last_time_ship",
+            "type": "datetime",
+            "description": "Last-time-ship date from the obsolescence notice."
+          },
+          {
+            "name": "verified_primary",
+            "type": "boolean",
+            "description": "true if the lifecycle data is backed by a primary Raspberry Pi source; false if none was found (see note)."
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "description": "Primary source of the lifecycle data."
+          },
+          {
+            "name": "checked",
+            "type": "datetime",
+            "description": "Date the source was last checked."
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Explanation, e.g. conflicting dates between official sources."
+          }
+        ]
+      }
+    },
+    {
+      "path": "prices_lifecycle.json",
+      "description": "Complete dataset: everything in both CSV files plus price events, the history of extended production guarantees, EOL notices, documented conflicts between official sources, value definitions and the CPI series used for inflation adjustment."
+    }
+  ]
+}
