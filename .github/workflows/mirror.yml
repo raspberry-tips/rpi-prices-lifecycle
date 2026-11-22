@@ -1,0 +1,56 @@
+name: Mirror to Hugging Face and Kaggle
+
+# Keeps the dataset mirrors in sync with this repository:
+#   https://huggingface.co/datasets/raspberry-tips/raspberry-pi-prices-and-lifecycle
+#   https://www.kaggle.com/datasets/philippschweizer/raspberry-pi-prices-and-lifecycle
+# Runs on every push that changes data/ or the mirror files, and on every release.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - '.mirror/**'
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Upload even if the mirrors look up to date'
+        type: boolean
+        default: false
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # sync.py compares the last commit touching data/
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install huggingface_hub kaggle
+
+      - name: Sync mirrors
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        run: |
+          # Changes to .mirror/ (card, columns, cover) do not touch data/, so force the upload then.
+          if [ "${{ inputs.force }}" = "true" ] || [ "${{ github.event_name }}" = "push" ]; then
+            python .mirror/sync.py --live
+          else
+            python .mirror/sync.py --live --if-stale
+          fi
