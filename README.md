@@ -8,6 +8,8 @@ guarantees ("will remain in production until at least …") of 45 Raspberry Pi p
 
 Interactive version with charts: [https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-prices-lifecycle](https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-prices-lifecycle) · German: [https://raspberry.tips/raspberrypi-infos/raspberry-pi-preisentwicklung-lebenszyklus](https://raspberry.tips/raspberrypi-infos/raspberry-pi-preisentwicklung-lebenszyklus)
 
+Mirrors: [Hugging Face](https://huggingface.co/datasets/raspberry-tips/raspberry-pi-prices-and-lifecycle) · [Kaggle](https://www.kaggle.com/datasets/philippschweizer/raspberry-pi-prices-and-lifecycle). This repository stays the canonical source and updates first.
+
 ## Files
 
 | File | Content |
