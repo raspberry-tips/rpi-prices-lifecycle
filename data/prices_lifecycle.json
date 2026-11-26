@@ -1420,9 +1420,9 @@
      "basis_detail": "stated",
      "confirmed": true,
      "verified": true,
-     "source_url": "https://www.raspberrypi.com/news/a-new-3gb-raspberry-pi-4-for-83-75-and-more-memory-driven-price-increases/",
-     "source_published": "2026-04-01T05:55:38+00:00",
-     "quote": "We’ve been able to hold the price of Raspberry Pi 400 with 4GB of memory at $60",
+     "source_url": "https://pip-assets.raspberrypi.com/categories/561-raspberry-pi-400/documents/RP-008346-DS-2-raspberry-pi-400-product-brief.pdf",
+     "source_published": "2026-04",
+     "quote": "$80 Raspberry Pi 400 US Kit",
      "note": "Kit $80 according to the April 2026 product brief.",
      "belege_rows": [
       39
@@ -1496,7 +1496,7 @@
    "family": "boards",
    "family_label": "Boards & PCs",
    "launch_date": "2023-09-28",
-   "launch_note": "Announced 28 Sep 2023, shipping from October 2023.",
+   "launch_note": "Announced 28 Sep 2023, shipping from the end of October 2023.",
    "launch_source": "https://www.raspberrypi.com/news/introducing-raspberry-pi-5/",
    "launch_source_secondary": false,
    "production_until": "2036-01",
@@ -1538,7 +1538,7 @@
      "variant": "4GB",
      "usd": 60,
      "delta_usd": null,
-     "event": "launch",
+     "event": "announcement",
      "basis": "stated",
      "basis_detail": "stated",
      "confirmed": true,
@@ -1556,7 +1556,7 @@
      "variant": "8GB",
      "usd": 80,
      "delta_usd": null,
-     "event": "launch",
+     "event": "announcement",
      "basis": "stated",
      "basis_detail": "stated",
      "confirmed": true,
@@ -2697,7 +2697,7 @@
    "family": "compute",
    "family_label": "Compute Modules",
    "launch_date": "2014-04-07",
-   "launch_note": null,
+   "launch_note": "Announced 7 Apr 2014.",
    "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-compute-module-new-product/",
    "launch_source_secondary": false,
    "production_until": "2028-01",
@@ -2713,13 +2713,6 @@
      "kind": "product page",
      "quote": "Compute Module 1 will remain in production until at least January 2028",
      "date": null,
-     "checked": "2026-10-12"
-    },
-    {
-     "url": "https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/",
-     "kind": "news post",
-     "quote": "They [CM1/CM3] will continue to be available until at least January 2023 as previously stated",
-     "date": "2019-01-28",
      "checked": "2026-10-12"
     }
    ],
@@ -2959,13 +2952,6 @@
      "kind": "product page",
      "quote": "Compute Module 3+ will remain in production until at least January 2028",
      "date": null,
-     "checked": "2026-10-12"
-    },
-    {
-     "url": "https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/",
-     "kind": "news post",
-     "quote": "CM3+ will be available until at least January 2026",
-     "date": "2019-01-28",
      "checked": "2026-10-12"
     }
    ],
@@ -4315,7 +4301,7 @@
    "status": "active",
    "status_label": "In production",
    "eol": null,
-   "conflict": "Product page: 'Pico 1 series' until at least January 2036. Product brief (01/2021, never updated): January 2028.",
+   "conflict": "Product page: 'Pico 1 series' until at least January 2036. Product brief (01/2021, never updated): January 2028. The Microcontrollers product guide splits it: Pico January 2028, Pico W/H/WH January 2036.",
    "note": "Extended: 2028 (brief 2021), then 2034 (10/2023, pi3g, secondary), then 2036. Longevity document: Pico/Pico W 2036*.",
    "lifecycle_sources": [
     {
@@ -4592,6 +4578,24 @@
      "belege_rows": [
       97
      ]
+    },
+    {
+     "date": "2026-03",
+     "variant": "Pico 2",
+     "usd": 5,
+     "delta_usd": 0,
+     "event": "unchanged",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/1005-raspberry-pi-pico-2/documents/RP-008302-DS-2-pico-2-product-brief.pdf",
+     "source_published": "2026-03",
+     "quote": "List Price: Pico 2 – $5 Pico 2 W – $7",
+     "note": null,
+     "belege_rows": [
+      101
+     ]
     }
    ],
    "price_summary": {
@@ -4605,9 +4609,9 @@
       "today_usd": 5,
       "today_since": "2024-08-08",
       "today_since_event": "launch",
-      "today_confirmed": false,
+      "today_confirmed": true,
       "last_usd": 5,
-      "last_date": "2024-08-08",
+      "last_date": "2026-03",
       "change_pct": 0.0,
       "launch_usd_cpi": 5.37,
       "real_change_pct": -6.9,
@@ -4669,6 +4673,24 @@
      "belege_rows": [
       98
      ]
+    },
+    {
+     "date": "2026-03",
+     "variant": "Pico 2 W",
+     "usd": 7,
+     "delta_usd": 0,
+     "event": "unchanged",
+     "basis": "stated",
+     "basis_detail": "stated",
+     "confirmed": true,
+     "verified": true,
+     "source_url": "https://pip-assets.raspberrypi.com/categories/1005-raspberry-pi-pico-2/documents/RP-008302-DS-2-pico-2-product-brief.pdf",
+     "source_published": "2026-03",
+     "quote": "List Price: Pico 2 – $5 Pico 2 W – $7",
+     "note": null,
+     "belege_rows": [
+      102
+     ]
     }
    ],
    "price_summary": {
@@ -4682,9 +4704,9 @@
       "today_usd": 7,
       "today_since": "2024-11-25",
       "today_since_event": "launch",
-      "today_confirmed": false,
+      "today_confirmed": true,
       "last_usd": 7,
-      "last_date": "2024-11-25",
+      "last_date": "2026-03",
       "change_pct": 0.0,
       "launch_usd_cpi": 7.52,
       "real_change_pct": -6.9,
@@ -4820,7 +4842,7 @@
    "family": "accessories",
    "family_label": "Accessories",
    "launch_date": "2024-11-04",
-   "launch_note": "7-inch on 4 Nov 2024; 10-inch since 22 Jul 2026.",
+   "launch_note": "Date applies to the 7-inch model.",
    "launch_source": "https://www.raspberrypi.com/news/raspberry-pi-touch-display-2-on-sale-now-at-60/",
    "launch_source_secondary": false,
    "production_until": "2030-01",
@@ -5773,7 +5795,7 @@
   {
    "product_id": "pico",
    "product": "Raspberry Pi Pico (incl. Pico H)",
-   "text": "Product page: 'Pico 1 series' until at least January 2036. Product brief (01/2021, never updated): January 2028."
+   "text": "Product page: 'Pico 1 series' until at least January 2036. Product brief (01/2021, never updated): January 2028. The Microcontrollers product guide splits it: Pico January 2028, Pico W/H/WH January 2036."
   },
   {
    "product_id": "debug-probe",
